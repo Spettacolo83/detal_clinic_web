@@ -1,0 +1,686 @@
+[
+  {
+    "id_suggested": "visita-di-controllo",
+    "category": "preventiva",
+    "icon_keyword": "stethoscope",
+    "priority": 2,
+    "price_orientative_eur_from": 0,
+    "price_orientative_eur_to": 60,
+    "duration_minutes": 30,
+    "sessions_typical": 1,
+    "i18n": {
+      "en": {
+        "name": "Dental Check-up",
+        "tagline": "A complete oral health assessment, the first step toward a healthy smile.",
+        "description_short": "A thorough examination of teeth, gums and bite, including a personalized prevention plan. It is the foundation of long-term oral health.",
+        "description_long": "A dental check-up is a comprehensive evaluation of your oral health. During the visit, our dentist examines teeth, gums, soft tissues, occlusion and existing restorations to identify any early signs of decay, gum disease or wear.\n\nIt is recommended at least once a year for adults and every six months for children, smokers or patients with a history of cavities. Many issues are silent in their early stages, and a regular check-up is the most effective way to address them before they require complex treatment.\n\nThe visit usually lasts around thirty minutes. The dentist will discuss your medical history, ask about any discomfort, and may take digital X-rays if clinically necessary. You will leave with a clear picture of your oral status and, if needed, a personalized treatment plan.\n\nAt DentalIA, the first check-up is designed to be a relaxed, informative moment. We take time to answer your questions and explain every observation in plain language.",
+        "who_for": ["Adults", "Children from age 4", "New patients", "Patients who have not visited a dentist in over a year"],
+        "benefits": ["Early detection of cavities and gum disease", "Personalized prevention plan", "Clear digital records of your oral health", "Peace of mind"],
+        "process_steps": ["Medical history review", "Clinical examination of teeth and gums", "Digital X-rays if needed", "Discussion of findings and next steps"],
+        "faq": [
+          {"q": "How often should I have a check-up?", "a": "Most adults benefit from one visit per year, while children, smokers and patients with a history of cavities should come every six months."},
+          {"q": "Does the check-up include cleaning?", "a": "No. Professional cleaning is a separate appointment so we can dedicate the right amount of time to each procedure."},
+          {"q": "Will X-rays be taken?", "a": "Only if clinically indicated. We use low-dose digital sensors and follow strict protocols to minimize exposure."},
+          {"q": "What should I bring?", "a": "Any recent X-rays or reports from other dentists, plus a list of medications you are currently taking."}
+        ]
+      },
+      "it": {
+        "name": "Visita di controllo",
+        "tagline": "Una valutazione completa della salute orale, il primo passo verso un sorriso sano.",
+        "description_short": "Esame approfondito di denti, gengive e occlusione, con un piano di prevenzione personalizzato. È la base della salute orale nel tempo.",
+        "description_long": "La visita di controllo è una valutazione completa della salute orale. Durante l'appuntamento il dentista esamina denti, gengive, tessuti molli, occlusione e restauri esistenti per individuare segni precoci di carie, malattia parodontale o usura.\n\nÈ consigliata almeno una volta all'anno per gli adulti e ogni sei mesi per bambini, fumatori o pazienti con storia di carie. Molti problemi nelle fasi iniziali sono silenziosi, e un controllo regolare è il modo più efficace per affrontarli prima che richiedano cure complesse.\n\nLa visita dura mediamente trenta minuti. Il dentista raccoglie l'anamnesi, chiede di eventuali fastidi e, se clinicamente necessario, esegue radiografie digitali. Al termine avrai un quadro chiaro della tua salute orale e, se serve, un piano di cura personalizzato.\n\nIn DentalIA la prima visita è pensata come un momento sereno e informativo. Dedichiamo tempo alle tue domande e ti spieghiamo ogni osservazione con un linguaggio semplice.",
+        "who_for": ["Adulti", "Bambini dai 4 anni", "Nuovi pazienti", "Chi non visita un dentista da oltre un anno"],
+        "benefits": ["Diagnosi precoce di carie e problemi gengivali", "Piano di prevenzione personalizzato", "Cartella clinica digitale chiara", "Tranquillità per te e la famiglia"],
+        "process_steps": ["Raccolta dell'anamnesi", "Esame clinico di denti e gengive", "Radiografie digitali se necessarie", "Discussione delle evidenze e prossimi passi"],
+        "faq": [
+          {"q": "Ogni quanto va fatta la visita di controllo?", "a": "Per la maggior parte degli adulti è utile una volta l'anno. Bambini, fumatori e pazienti con storia di carie dovrebbero venire ogni sei mesi."},
+          {"q": "La visita comprende anche la pulizia?", "a": "No. L'igiene professionale è un appuntamento separato per dedicare a ogni procedura il tempo che merita."},
+          {"q": "Verranno fatte radiografie?", "a": "Solo se clinicamente indicate. Usiamo sensori digitali a bassa dose e protocolli che minimizzano l'esposizione."},
+          {"q": "Cosa devo portare con me?", "a": "Eventuali radiografie o referti recenti di altri dentisti e l'elenco dei farmaci che assumi abitualmente."}
+        ]
+      },
+      "es": {
+        "name": "Revisión dental",
+        "tagline": "Una evaluación completa de la salud bucal, el primer paso hacia una sonrisa sana.",
+        "description_short": "Examen detallado de dientes, encías y oclusión, con un plan de prevención personalizado. Es la base de una salud oral duradera.",
+        "description_long": "La revisión dental es una evaluación completa de la salud bucal. Durante la cita, el dentista examina dientes, encías, tejidos blandos, oclusión y restauraciones existentes para detectar signos tempranos de caries, enfermedad periodontal o desgaste.\n\nSe recomienda al menos una vez al año en adultos y cada seis meses en niños, fumadores o pacientes con antecedentes de caries. Muchos problemas son silenciosos en sus fases iniciales y una revisión periódica es la forma más eficaz de tratarlos antes de que requieran intervenciones complejas.\n\nLa visita dura unos treinta minutos. El dentista recoge la historia clínica, pregunta por posibles molestias y, si es clínicamente necesario, realiza radiografías digitales. Al final tendrás una visión clara de tu salud oral y, si es preciso, un plan de tratamiento personalizado.\n\nEn DentalIA la primera revisión está pensada como un momento tranquilo e informativo. Dedicamos tiempo a tus preguntas y explicamos cada observación con un lenguaje sencillo.",
+        "who_for": ["Adultos", "Niños desde los 4 años", "Nuevos pacientes", "Personas que no visitan al dentista desde hace más de un año"],
+        "benefits": ["Diagnóstico temprano de caries y problemas de encías", "Plan de prevención personalizado", "Historia clínica digital clara", "Tranquilidad para ti y tu familia"],
+        "process_steps": ["Recogida de la historia clínica", "Examen clínico de dientes y encías", "Radiografías digitales si son necesarias", "Comentario de los hallazgos y próximos pasos"],
+        "faq": [
+          {"q": "¿Cada cuánto debo hacerme una revisión?", "a": "La mayoría de adultos se beneficia de una visita al año. Niños, fumadores y pacientes con antecedentes de caries deberían acudir cada seis meses."},
+          {"q": "¿La revisión incluye la limpieza?", "a": "No. La higiene profesional es una cita aparte para poder dedicar el tiempo adecuado a cada procedimiento."},
+          {"q": "¿Se hacen radiografías?", "a": "Solo si están clínicamente indicadas. Utilizamos sensores digitales de baja dosis y protocolos que minimizan la exposición."},
+          {"q": "¿Qué debo llevar?", "a": "Cualquier radiografía o informe reciente de otros dentistas y la lista de medicamentos que tomas habitualmente."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "igiene-dentale-professionale",
+    "category": "preventiva",
+    "icon_keyword": "sparkles",
+    "priority": 1,
+    "price_orientative_eur_from": 60,
+    "price_orientative_eur_to": 120,
+    "duration_minutes": 45,
+    "sessions_typical": 1,
+    "i18n": {
+      "en": {
+        "name": "Professional Dental Hygiene",
+        "tagline": "A deep clean that removes tartar, polishes enamel and refreshes your smile.",
+        "description_short": "Professional removal of plaque and tartar above and below the gumline, followed by polishing. The most effective routine prevention you can have.",
+        "description_long": "Professional dental hygiene is the cornerstone of preventive care. Even with excellent home brushing, mineralized deposits called tartar build up in places a toothbrush cannot reach. Left untreated, tartar leads to gum inflammation, bleeding and, over time, bone loss.\n\nThe hygienist uses ultrasonic instruments and fine hand tools to remove plaque and tartar from every surface, including just below the gumline. Polishing with a soft paste then smooths the enamel and reduces stain pickup from coffee, tea and tobacco.\n\nMost adults benefit from a session every six to twelve months. Patients with implants, orthodontic appliances or a history of gum disease may need shorter intervals. The appointment usually takes between forty-five minutes and one hour and is generally painless.\n\nAt DentalIA we combine ultrasonic technology with airflow polishing on request, finishing each session with personalized advice on brushing technique, interdental cleaning and product choice.",
+        "who_for": ["Adults", "Teenagers with braces", "Patients with implants or crowns", "Coffee, tea or tobacco users"],
+        "benefits": ["Removal of tartar and biofilm", "Healthier, less inflamed gums", "Brighter, smoother enamel", "Fresher breath"],
+        "process_steps": ["Gum and plaque assessment", "Ultrasonic scaling above and below the gumline", "Polishing and stain removal", "Personalized home-care advice"],
+        "faq": [
+          {"q": "Does it hurt?", "a": "For most patients the session is comfortable. If you have sensitive teeth, let the hygienist know and we will adapt the technique."},
+          {"q": "How often should I have it done?", "a": "Once or twice a year for most adults, more frequently for patients with gum disease, implants or braces."},
+          {"q": "Will my teeth look whiter?", "a": "Polishing removes superficial stains, so teeth often look fresher and brighter, but it is not a whitening treatment."},
+          {"q": "Can I eat right after?", "a": "Yes, but we suggest waiting a couple of hours before coffee, red wine or strongly colored foods to let the enamel rehydrate."}
+        ]
+      },
+      "it": {
+        "name": "Igiene dentale professionale",
+        "tagline": "Una pulizia profonda che rimuove il tartaro, leviga lo smalto e rinfresca il sorriso.",
+        "description_short": "Rimozione professionale di placca e tartaro sopra e sotto il margine gengivale, seguita da lucidatura. È la prevenzione più efficace che puoi fare.",
+        "description_long": "L'igiene dentale professionale è il pilastro della prevenzione. Anche con uno spazzolamento accurato a casa, in alcune zone si accumulano depositi mineralizzati, il tartaro, che lo spazzolino non riesce a rimuovere. Se trascurato, il tartaro provoca infiammazione gengivale, sanguinamento e, nel tempo, perdita di osso.\n\nL'igienista utilizza strumenti a ultrasuoni e piccoli strumenti manuali per rimuovere placca e tartaro da tutte le superfici, anche appena sotto il margine gengivale. La successiva lucidatura con una pasta delicata leviga lo smalto e riduce la formazione di nuove macchie da caffè, tè e fumo.\n\nLa maggior parte degli adulti beneficia di una seduta ogni sei o dodici mesi. Pazienti con impianti, apparecchi ortodontici o storia di malattia parodontale possono avere bisogno di intervalli più brevi. La seduta dura tra quarantacinque minuti e un'ora ed è generalmente indolore.\n\nIn DentalIA combiniamo tecnologia a ultrasuoni e, su richiesta, lucidatura airflow, concludendo ogni seduta con consigli personalizzati su tecnica di spazzolamento, igiene interdentale e prodotti.",
+        "who_for": ["Adulti", "Adolescenti con apparecchio", "Pazienti con impianti o corone", "Chi consuma caffè, tè o fuma"],
+        "benefits": ["Rimozione di tartaro e biofilm", "Gengive più sane e meno infiammate", "Smalto più lucido e levigato", "Alito più fresco"],
+        "process_steps": ["Valutazione di gengive e placca", "Ablazione del tartaro sopra e sotto gengiva", "Lucidatura e rimozione delle macchie", "Consigli personalizzati per l'igiene a casa"],
+        "faq": [
+          {"q": "L'igiene fa male?", "a": "Per la maggior parte dei pazienti è una seduta confortevole. Se hai denti sensibili dillo all'igienista, adatteremo la tecnica."},
+          {"q": "Ogni quanto va fatta?", "a": "Una o due volte l'anno per la maggior parte degli adulti, più spesso in caso di malattia parodontale, impianti o apparecchio."},
+          {"q": "I denti diventano più bianchi?", "a": "La lucidatura rimuove le macchie superficiali, quindi i denti appaiono più luminosi, ma non è un trattamento di sbiancamento."},
+          {"q": "Posso mangiare subito dopo?", "a": "Sì, ma è meglio attendere un paio d'ore prima di caffè, vino rosso o alimenti molto colorati per dare allo smalto il tempo di reidratarsi."}
+        ]
+      },
+      "es": {
+        "name": "Higiene dental profesional",
+        "tagline": "Una limpieza profunda que elimina el sarro, pule el esmalte y refresca tu sonrisa.",
+        "description_short": "Eliminación profesional de placa y sarro por encima y por debajo del margen gingival, seguida de pulido. Es la prevención más eficaz que puedes hacer.",
+        "description_long": "La higiene dental profesional es el pilar de la prevención. Aunque cepilles bien en casa, en algunas zonas se acumulan depósitos mineralizados, el sarro, que el cepillo no puede eliminar. Sin tratar, el sarro provoca inflamación de las encías, sangrado y, con el tiempo, pérdida ósea.\n\nEl higienista utiliza instrumentos ultrasónicos y herramientas manuales finas para retirar la placa y el sarro de todas las superficies, incluso justo por debajo del margen gingival. El pulido posterior con una pasta suave alisa el esmalte y reduce la aparición de nuevas manchas por café, té o tabaco.\n\nLa mayoría de adultos se beneficia de una sesión cada seis o doce meses. Pacientes con implantes, ortodoncia o antecedentes de enfermedad periodontal pueden necesitar intervalos más cortos. La cita dura entre cuarenta y cinco minutos y una hora y suele ser indolora.\n\nEn DentalIA combinamos tecnología ultrasónica y, bajo petición, pulido airflow, cerrando cada sesión con consejos personalizados sobre técnica de cepillado, higiene interdental y elección de productos.",
+        "who_for": ["Adultos", "Adolescentes con ortodoncia", "Pacientes con implantes o coronas", "Consumidores de café, té o tabaco"],
+        "benefits": ["Eliminación de sarro y biofilm", "Encías más sanas y menos inflamadas", "Esmalte más liso y brillante", "Aliento más fresco"],
+        "process_steps": ["Valoración de encías y placa", "Tartrectomía ultrasónica supra y subgingival", "Pulido y eliminación de manchas", "Consejos personalizados para casa"],
+        "faq": [
+          {"q": "¿Duele?", "a": "Para la mayoría de pacientes es una sesión cómoda. Si tienes dientes sensibles, indícaselo al higienista para adaptar la técnica."},
+          {"q": "¿Con qué frecuencia debo hacerla?", "a": "Una o dos veces al año en la mayoría de adultos, con más frecuencia si hay enfermedad periodontal, implantes u ortodoncia."},
+          {"q": "¿Quedarán los dientes más blancos?", "a": "El pulido elimina las manchas superficiales, por lo que los dientes se ven más luminosos, pero no es un blanqueamiento."},
+          {"q": "¿Puedo comer justo después?", "a": "Sí, aunque conviene esperar un par de horas antes de tomar café, vino tinto o alimentos muy pigmentados."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "implantologia",
+    "category": "chirurgia",
+    "icon_keyword": "anchor",
+    "priority": 1,
+    "price_orientative_eur_from": 800,
+    "price_orientative_eur_to": 2500,
+    "duration_minutes": 90,
+    "sessions_typical": 3,
+    "i18n": {
+      "en": {
+        "name": "Dental Implants",
+        "tagline": "A definitive solution for missing teeth, with the look and feel of a natural tooth.",
+        "description_short": "A titanium implant replaces the root of a missing tooth and supports a custom crown. A durable, stable solution that helps preserve bone.",
+        "description_long": "A dental implant is a small titanium screw inserted into the jawbone to replace the root of a missing tooth. Once integrated, it supports a custom-made crown, bridge or denture that looks and feels like a natural tooth.\n\nImplants are recommended when one or more teeth are missing or cannot be saved. They prevent bone loss, restore chewing efficiency and avoid the need to grind down adjacent healthy teeth as would be required for a traditional bridge.\n\nThe full process usually takes three to six months. After an initial consultation with CBCT scan and digital planning, the implant is placed under local anesthesia in a session of about an hour. A healing period of two to four months allows osseointegration; the final crown is then crafted and fitted.\n\nAt DentalIA we use guided surgery, premium implant systems and digital workflows for highly predictable results. Our implantology team has years of experience with single implants, full-arch rehabilitations and immediate loading protocols when indicated.",
+        "who_for": ["Adults with one or more missing teeth", "Patients with failing teeth", "Denture wearers seeking more stability", "Patients with adequate bone or willing to undergo grafting"],
+        "benefits": ["Stable, natural-feeling replacement", "Preserves the surrounding bone", "Does not damage adjacent teeth", "Long-term durability with proper care"],
+        "process_steps": ["Consultation with 3D CBCT scan and digital planning", "Implant placement under local anesthesia", "Healing and osseointegration", "Placement of the custom crown or bridge"],
+        "faq": [
+          {"q": "Is implant surgery painful?", "a": "The procedure itself is performed under local anesthesia and is generally not painful. Mild discomfort and swelling for two to three days afterwards are normal and well controlled with standard medication."},
+          {"q": "How long does an implant last?", "a": "With good hygiene and regular check-ups, modern implants can last decades. Long-term success rates exceed ninety-five percent at ten years."},
+          {"q": "What if I do not have enough bone?", "a": "We can often regenerate bone through grafting or sinus lift procedures, or use shorter and angled implants when appropriate."},
+          {"q": "Will I be without a tooth during healing?", "a": "In most cases we provide a temporary solution so you are never without a tooth in the smile area."}
+        ]
+      },
+      "it": {
+        "name": "Implantologia dentale",
+        "tagline": "Una soluzione definitiva ai denti mancanti, con l'estetica e la funzione di un dente naturale.",
+        "description_short": "Un impianto in titanio sostituisce la radice del dente mancante e sostiene una corona su misura. Una soluzione stabile e duratura che protegge l'osso.",
+        "description_long": "L'impianto dentale è una piccola vite in titanio inserita nell'osso mascellare per sostituire la radice di un dente mancante. Una volta integrato, sostiene una corona, un ponte o una protesi su misura che ha l'aspetto e la sensazione di un dente naturale.\n\nL'implantologia è indicata quando uno o più denti sono assenti o non recuperabili. Previene il riassorbimento osseo, restituisce un'efficiente masticazione ed evita di limare i denti vicini, come invece avviene con il ponte tradizionale.\n\nIl percorso completo dura in genere tra tre e sei mesi. Dopo un consulto iniziale con TAC cone-beam e pianificazione digitale, l'impianto viene inserito in anestesia locale in una seduta di circa un'ora. Seguono due-quattro mesi di osteointegrazione e infine viene realizzata e applicata la corona definitiva.\n\nIn DentalIA utilizziamo chirurgia guidata, sistemi implantari di alta gamma e flussi di lavoro digitali per risultati altamente prevedibili. Il nostro team ha esperienza pluriennale su singoli impianti, riabilitazioni complete e protocolli a carico immediato quando indicati.",
+        "who_for": ["Adulti con uno o più denti mancanti", "Pazienti con denti compromessi", "Portatori di protesi che cercano maggiore stabilità", "Pazienti con osso sufficiente o disposti a innesti"],
+        "benefits": ["Sostituzione stabile e naturale", "Protezione dell'osso circostante", "Nessun intervento sui denti adiacenti", "Durata pluridecennale con cure adeguate"],
+        "process_steps": ["Consulto con TAC cone-beam 3D e pianificazione digitale", "Inserimento dell'impianto in anestesia locale", "Guarigione e osteointegrazione", "Applicazione della corona o ponte su misura"],
+        "faq": [
+          {"q": "L'intervento è doloroso?", "a": "La procedura è eseguita in anestesia locale ed è generalmente indolore. Un lieve gonfiore o fastidio per due o tre giorni è normale e ben controllato con i comuni analgesici."},
+          {"q": "Quanto dura un impianto?", "a": "Con buona igiene e controlli regolari un impianto moderno può durare decenni. Le percentuali di successo superano il novantacinque per cento a dieci anni."},
+          {"q": "Cosa succede se non ho abbastanza osso?", "a": "Spesso è possibile rigenerare l'osso con innesti o rialzo del seno mascellare, oppure utilizzare impianti più corti o inclinati quando indicato."},
+          {"q": "Resterò senza dente durante la guarigione?", "a": "Nella maggior parte dei casi forniamo una soluzione provvisoria, così non resti mai senza dente nella zona estetica."}
+        ]
+      },
+      "es": {
+        "name": "Implantes dentales",
+        "tagline": "Una solución definitiva para los dientes ausentes, con el aspecto y la sensación de un diente natural.",
+        "description_short": "Un implante de titanio sustituye la raíz del diente ausente y sostiene una corona a medida. Una solución estable y duradera que protege el hueso.",
+        "description_long": "El implante dental es un pequeño tornillo de titanio que se coloca en el hueso maxilar para sustituir la raíz de un diente ausente. Una vez integrado, sostiene una corona, un puente o una prótesis hecha a medida con la estética y la función de un diente natural.\n\nLa implantología está indicada cuando uno o varios dientes están ausentes o no se pueden conservar. Previene la pérdida ósea, restablece la masticación y evita tener que tallar los dientes vecinos, como sucede con un puente tradicional.\n\nEl proceso completo suele durar entre tres y seis meses. Tras la consulta inicial con escáner CBCT y planificación digital, el implante se coloca con anestesia local en una sesión de aproximadamente una hora. Después siguen dos a cuatro meses de osteointegración y, finalmente, se confecciona y coloca la corona definitiva.\n\nEn DentalIA utilizamos cirugía guiada, sistemas de implantes de gama alta y flujos de trabajo digitales para obtener resultados muy predecibles. Nuestro equipo cuenta con años de experiencia en implantes unitarios, rehabilitaciones completas y protocolos de carga inmediata cuando están indicados.",
+        "who_for": ["Adultos con uno o varios dientes ausentes", "Pacientes con dientes no recuperables", "Portadores de prótesis que buscan más estabilidad", "Pacientes con hueso suficiente o dispuestos a injertos"],
+        "benefits": ["Sustitución estable y natural", "Protección del hueso circundante", "Sin intervenir los dientes vecinos", "Larga duración con los cuidados adecuados"],
+        "process_steps": ["Consulta con CBCT 3D y planificación digital", "Colocación del implante con anestesia local", "Cicatrización y osteointegración", "Colocación de la corona o puente a medida"],
+        "faq": [
+          {"q": "¿Es doloroso?", "a": "La intervención se realiza con anestesia local y suele ser indolora. Un ligero malestar o hinchazón durante dos o tres días es normal y se controla bien con analgesia habitual."},
+          {"q": "¿Cuánto dura un implante?", "a": "Con buena higiene y revisiones periódicas, un implante moderno puede durar décadas. La tasa de éxito supera el noventa y cinco por ciento a los diez años."},
+          {"q": "¿Qué pasa si no tengo suficiente hueso?", "a": "En muchos casos podemos regenerar hueso mediante injertos o elevación de seno, o utilizar implantes más cortos o angulados cuando esté indicado."},
+          {"q": "¿Estaré sin diente durante la cicatrización?", "a": "En la mayoría de los casos colocamos una solución provisional para que nunca estés sin diente en la zona estética."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "ortodonzia-fissa",
+    "category": "ortodonzia",
+    "icon_keyword": "grid",
+    "priority": 2,
+    "price_orientative_eur_from": 2500,
+    "price_orientative_eur_to": 5500,
+    "duration_minutes": 45,
+    "sessions_typical": 18,
+    "i18n": {
+      "en": {
+        "name": "Fixed Braces Orthodontics",
+        "tagline": "Effective, time-tested braces for healthier alignment in growing patients and adults.",
+        "description_short": "Fixed metal or ceramic braces correct alignment and bite issues precisely. Suitable for adolescents and adults across most clinical scenarios.",
+        "description_long": "Fixed braces, also called multi-bracket therapy, are still one of the most precise and versatile orthodontic systems. Brackets are bonded to the teeth and connected by a thin wire that gently guides them into the correct position.\n\nThis treatment addresses crowding, gaps, crossbites, deep bites and many complex orthodontic issues that are harder to manage with aligners alone. Modern brackets are smaller and more comfortable than in the past, and ceramic options offer a more discreet appearance.\n\nA typical course lasts between twelve and twenty-four months, depending on complexity. Check-ups every four to six weeks allow the orthodontist to adjust the wire and monitor progress. Once active treatment is complete, a retainer is essential to keep the result stable.\n\nAt DentalIA we begin every case with a digital scan and a 3D treatment simulation, so you and the orthodontist can agree on the goal before the journey starts. Our team is experienced with both adolescent and adult orthodontics.",
+        "who_for": ["Children from age 9-10 with mixed dentition", "Adolescents", "Adults with complex malocclusions", "Patients who prefer a fixed appliance"],
+        "benefits": ["Predictable correction of complex cases", "Continuous progress between visits", "Lower compliance burden than aligners", "Wide range of clinical indications"],
+        "process_steps": ["Orthodontic consultation and digital records", "Treatment planning with 3D simulation", "Bonding of brackets and activation", "Periodic check-ups every 4-6 weeks", "Retention phase after debonding"],
+        "faq": [
+          {"q": "How long does the treatment last?", "a": "On average between twelve and twenty-four months. Simple cases can be shorter, while complex bite corrections may take longer."},
+          {"q": "Is it visible?", "a": "Traditional braces are visible. Ceramic brackets are tooth-colored and far more discreet, especially in photos and conversation."},
+          {"q": "Does it hurt?", "a": "You may feel light pressure for a few days after each adjustment. It is usually well tolerated and not described as pain."},
+          {"q": "Can adults wear braces?", "a": "Absolutely. Adults represent a growing share of our orthodontic patients and respond very well to treatment."}
+        ]
+      },
+      "it": {
+        "name": "Ortodonzia con apparecchio fisso",
+        "tagline": "Apparecchio efficace e consolidato, per un allineamento sano in adolescenti e adulti.",
+        "description_short": "L'apparecchio fisso, metallico o ceramico, corregge con precisione allineamento e occlusione. Adatto ad adolescenti e adulti in molti scenari clinici.",
+        "description_long": "L'apparecchio fisso, o terapia multibracket, è uno dei sistemi ortodontici più precisi e versatili. I brackets sono incollati ai denti e collegati da un filo sottile che li guida con delicatezza nella posizione corretta.\n\nÈ indicato per affollamenti, diastemi, morsi crociati, morsi profondi e molte situazioni complesse difficili da gestire con i soli allineatori. I brackets moderni sono più piccoli e confortevoli che in passato, e quelli in ceramica offrono un'estetica decisamente più discreta.\n\nUn ciclo tipico dura tra dodici e ventiquattro mesi, in base alla complessità. I controlli ogni quattro-sei settimane permettono all'ortodontista di adattare il filo e monitorare i progressi. Al termine, è essenziale una contenzione per mantenere stabile il risultato.\n\nIn DentalIA ogni caso inizia con una scansione digitale e una simulazione 3D del trattamento, così tu e l'ortodontista potete condividere l'obiettivo prima di iniziare. Il nostro team ha esperienza sia in ortodonzia degli adolescenti sia degli adulti.",
+        "who_for": ["Bambini dai 9-10 anni con dentizione mista", "Adolescenti", "Adulti con malocclusioni complesse", "Chi preferisce un apparecchio fisso"],
+        "benefits": ["Correzione prevedibile anche di casi complessi", "Progressi continui tra una visita e l'altra", "Minore necessità di collaborazione rispetto agli allineatori", "Ampio range di indicazioni cliniche"],
+        "process_steps": ["Visita ortodontica e cartella digitale", "Pianificazione del trattamento con simulazione 3D", "Applicazione dei brackets e attivazione", "Controlli periodici ogni 4-6 settimane", "Fase di contenzione dopo la rimozione"],
+        "faq": [
+          {"q": "Quanto dura il trattamento?", "a": "In media tra dodici e ventiquattro mesi. I casi semplici possono richiedere meno, le correzioni occlusali complesse anche di più."},
+          {"q": "Si vede molto?", "a": "L'apparecchio tradizionale è visibile, mentre i brackets in ceramica hanno il colore del dente e risultano molto più discreti, soprattutto in foto e nelle conversazioni."},
+          {"q": "Fa male?", "a": "Per qualche giorno dopo ogni attivazione si avverte una leggera pressione, generalmente ben tollerata e non descritta come dolore."},
+          {"q": "Anche un adulto può portare l'apparecchio?", "a": "Assolutamente sì. Gli adulti rappresentano una quota crescente dei nostri pazienti ortodontici e rispondono molto bene al trattamento."}
+        ]
+      },
+      "es": {
+        "name": "Ortodoncia con brackets",
+        "tagline": "Una ortodoncia eficaz y consolidada para una alineación sana en adolescentes y adultos.",
+        "description_short": "Los brackets metálicos o cerámicos corrigen con precisión la alineación y la mordida. Adecuados para adolescentes y adultos en muchos escenarios clínicos.",
+        "description_long": "La ortodoncia con brackets, o terapia multibracket, sigue siendo uno de los sistemas ortodóncicos más precisos y versátiles. Los brackets se cementan sobre los dientes y se conectan mediante un alambre fino que los guía suavemente hasta la posición correcta.\n\nEstá indicada para apiñamientos, diastemas, mordidas cruzadas, sobremordidas y muchas situaciones complejas difíciles de manejar solo con alineadores. Los brackets actuales son más pequeños y cómodos que antes, y los de cerámica ofrecen una estética más discreta.\n\nUn tratamiento típico dura entre doce y veinticuatro meses, según la complejidad. Las revisiones cada cuatro a seis semanas permiten al ortodoncista ajustar el arco y supervisar el progreso. Al terminar la fase activa, es esencial una contención para mantener el resultado.\n\nEn DentalIA todos los casos comienzan con un escáner digital y una simulación 3D del tratamiento, para que tú y el ortodoncista compartáis el objetivo antes de empezar. Nuestro equipo tiene experiencia tanto en ortodoncia infantil-adolescente como en adultos.",
+        "who_for": ["Niños desde los 9-10 años con dentición mixta", "Adolescentes", "Adultos con maloclusiones complejas", "Pacientes que prefieren un aparato fijo"],
+        "benefits": ["Corrección predecible incluso en casos complejos", "Progreso continuo entre visitas", "Menor exigencia de colaboración que con alineadores", "Amplio abanico de indicaciones clínicas"],
+        "process_steps": ["Consulta ortodóncica y registros digitales", "Planificación con simulación 3D", "Colocación de brackets y activación", "Revisiones periódicas cada 4-6 semanas", "Fase de contención tras la retirada"],
+        "faq": [
+          {"q": "¿Cuánto dura el tratamiento?", "a": "De media entre doce y veinticuatro meses. Los casos sencillos pueden ser más cortos y las correcciones complejas algo más largas."},
+          {"q": "¿Se nota mucho?", "a": "Los brackets metálicos son visibles, mientras que los cerámicos imitan el color del diente y resultan mucho más discretos."},
+          {"q": "¿Duele?", "a": "Durante unos días tras cada activación se nota una ligera presión, generalmente bien tolerada y no descrita como dolor."},
+          {"q": "¿Un adulto también puede llevar brackets?", "a": "Por supuesto. Los adultos son una parte creciente de nuestros pacientes de ortodoncia y responden muy bien al tratamiento."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "ortodonzia-invisalign",
+    "category": "ortodonzia",
+    "icon_keyword": "smile",
+    "priority": 1,
+    "price_orientative_eur_from": 3500,
+    "price_orientative_eur_to": 6500,
+    "duration_minutes": 30,
+    "sessions_typical": 10,
+    "i18n": {
+      "en": {
+        "name": "Invisible Orthodontics (Invisalign)",
+        "tagline": "Clear, removable aligners that straighten teeth almost invisibly.",
+        "description_short": "A sequence of custom transparent aligners gradually moves teeth into their ideal position. Discreet, removable and very comfortable for daily life.",
+        "description_long": "Invisible orthodontics with clear aligners is a modern alternative to traditional braces. A 3D scan of your mouth is used to plan every micro-movement of your teeth, and a sequence of custom aligners gradually guides them into the planned position.\n\nThe aligners are transparent, very thin and removable, so they are nearly invisible in conversation and can be taken out to eat and brush. This makes the treatment particularly attractive for professionals, public-facing roles and adults who do not want a visible appliance.\n\nA typical course lasts between six and eighteen months. Each aligner is worn for about twenty-two hours a day for one to two weeks, then replaced by the next in the sequence. Check-ups are usually scheduled every six to eight weeks.\n\nAt DentalIA we work with Invisalign and other premium aligner systems. Before you start we show you a 3D simulation of your future smile so you know exactly what to expect, then we monitor progress with intraoral scans at each visit.",
+        "who_for": ["Adults who want a discreet treatment", "Adolescents with mild to moderate cases", "Professionals", "Patients who already had braces and need a small relapse correction"],
+        "benefits": ["Almost invisible appearance", "Removable for meals and hygiene", "Predictable digital planning", "Often more comfortable than fixed braces"],
+        "process_steps": ["Orthodontic consultation and intraoral 3D scan", "Digital treatment plan with simulation", "Delivery of custom aligners", "Check-ups every 6-8 weeks", "Retention phase to stabilize the result"],
+        "faq": [
+          {"q": "Can aligners treat my case?", "a": "Most mild and moderate cases are very well managed by aligners. For complex bite corrections fixed braces may still be the better option, and we will discuss this openly."},
+          {"q": "How many hours a day do I need to wear them?", "a": "About twenty-two hours per day. Aligners only work when they are on, so wearing them consistently is essential."},
+          {"q": "Will I have a lisp?", "a": "Many patients notice a slight change in speech in the first few days. The tongue adapts quickly and the lisp disappears."},
+          {"q": "Do I still need a retainer at the end?", "a": "Yes. Retention is necessary after any orthodontic treatment to maintain the result over time."}
+        ]
+      },
+      "it": {
+        "name": "Ortodonzia invisibile (Invisalign)",
+        "tagline": "Allineatori trasparenti e removibili che raddrizzano i denti in modo quasi invisibile.",
+        "description_short": "Una sequenza di mascherine trasparenti su misura sposta gradualmente i denti nella posizione ideale. Discreta, removibile e molto comoda nella vita di tutti i giorni.",
+        "description_long": "L'ortodonzia invisibile con allineatori trasparenti è l'alternativa moderna all'apparecchio tradizionale. Una scansione 3D della bocca permette di pianificare ogni micro-movimento dei denti, e una sequenza di allineatori su misura li guida nella posizione prevista.\n\nLe mascherine sono trasparenti, molto sottili e removibili, quindi quasi invisibili nella conversazione e si possono togliere per mangiare e lavarsi i denti. Per questo sono particolarmente apprezzate da professionisti, persone con ruoli pubblici e adulti che non vogliono un apparecchio visibile.\n\nUn ciclo tipico dura tra sei e diciotto mesi. Ogni allineatore va indossato circa ventidue ore al giorno per una o due settimane, prima di passare al successivo. I controlli sono solitamente programmati ogni sei-otto settimane.\n\nIn DentalIA lavoriamo con Invisalign e altri sistemi premium di allineatori. Prima di iniziare ti mostriamo una simulazione 3D del tuo nuovo sorriso, così sai esattamente cosa aspettarti; poi monitoriamo i progressi con scansioni intraorali a ogni visita.",
+        "who_for": ["Adulti che vogliono un trattamento discreto", "Adolescenti con casi lievi o moderati", "Professionisti", "Pazienti già trattati che hanno avuto piccole ricadute"],
+        "benefits": ["Estetica quasi invisibile", "Removibile per mangiare e per l'igiene", "Pianificazione digitale prevedibile", "Spesso più confortevole dell'apparecchio fisso"],
+        "process_steps": ["Visita ortodontica e scansione intraorale 3D", "Piano di trattamento digitale con simulazione", "Consegna delle mascherine su misura", "Controlli ogni 6-8 settimane", "Fase di contenzione per stabilizzare il risultato"],
+        "faq": [
+          {"q": "Il mio caso si può trattare con gli allineatori?", "a": "La maggior parte dei casi lievi e moderati si gestisce molto bene con gli allineatori. Per correzioni occlusali complesse l'apparecchio fisso può restare la scelta migliore, e ne parleremo apertamente."},
+          {"q": "Quante ore al giorno vanno portate?", "a": "Circa ventidue ore al giorno. Gli allineatori lavorano solo quando sono in bocca, quindi la costanza è fondamentale."},
+          {"q": "Avrò difficoltà a parlare?", "a": "Molti pazienti notano una lieve variazione nei primi giorni. La lingua si adatta rapidamente e il piccolo difetto di pronuncia scompare."},
+          {"q": "Servirà comunque una contenzione finale?", "a": "Sì. La contenzione è necessaria dopo ogni trattamento ortodontico per mantenere il risultato nel tempo."}
+        ]
+      },
+      "es": {
+        "name": "Ortodoncia invisible (Invisalign)",
+        "tagline": "Alineadores transparentes y removibles que alinean los dientes de forma casi invisible.",
+        "description_short": "Una secuencia de férulas transparentes a medida desplaza los dientes hasta la posición ideal. Discreta, removible y muy cómoda en el día a día.",
+        "description_long": "La ortodoncia invisible con alineadores transparentes es la alternativa moderna a los brackets tradicionales. Un escáner 3D de la boca permite planificar cada micromovimiento de los dientes, y una secuencia de alineadores a medida los guía hasta la posición prevista.\n\nLas férulas son transparentes, muy finas y removibles, casi invisibles al hablar y se pueden quitar para comer y cepillarse. Por eso son especialmente atractivas para profesionales, personas con cargos públicos y adultos que no desean llevar un aparato visible.\n\nUn tratamiento típico dura entre seis y dieciocho meses. Cada alineador se utiliza unas veintidós horas al día durante una o dos semanas y se sustituye por el siguiente. Las revisiones suelen programarse cada seis u ocho semanas.\n\nEn DentalIA trabajamos con Invisalign y otros sistemas premium de alineadores. Antes de empezar te mostramos una simulación 3D de tu nueva sonrisa para que sepas qué esperar, y vamos monitorizando el progreso con escáneres intraorales en cada visita.",
+        "who_for": ["Adultos que desean un tratamiento discreto", "Adolescentes con casos leves o moderados", "Profesionales", "Pacientes con pequeñas recidivas tras ortodoncia previa"],
+        "benefits": ["Estética casi invisible", "Removible para comer y cepillarse", "Planificación digital predecible", "Suele ser más cómoda que los brackets"],
+        "process_steps": ["Consulta ortodóncica y escáner intraoral 3D", "Plan de tratamiento digital con simulación", "Entrega de los alineadores a medida", "Revisiones cada 6-8 semanas", "Fase de contención para estabilizar el resultado"],
+        "faq": [
+          {"q": "¿Mi caso se puede tratar con alineadores?", "a": "La mayoría de casos leves y moderados se gestionan muy bien con alineadores. En correcciones de mordida complejas los brackets pueden seguir siendo la mejor opción, y lo hablaremos abiertamente."},
+          {"q": "¿Cuántas horas al día hay que llevarlos?", "a": "Unas veintidós horas al día. Los alineadores solo trabajan cuando están puestos, así que la constancia es clave."},
+          {"q": "¿Afecta al habla?", "a": "Muchos pacientes notan un pequeño cambio los primeros días. La lengua se adapta rápido y la pronunciación vuelve a la normalidad."},
+          {"q": "¿Necesitaré retención al final?", "a": "Sí. La contención es necesaria tras cualquier tratamiento ortodóncico para mantener el resultado en el tiempo."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "sbiancamento-professionale",
+    "category": "estetica",
+    "icon_keyword": "sun",
+    "priority": 2,
+    "price_orientative_eur_from": 250,
+    "price_orientative_eur_to": 600,
+    "duration_minutes": 60,
+    "sessions_typical": 1,
+    "i18n": {
+      "en": {
+        "name": "Professional Teeth Whitening",
+        "tagline": "A brighter smile in one session, safely and under medical supervision.",
+        "description_short": "Professional whitening lightens enamel tone in a controlled, safe way. Available in-office or as a guided home protocol with custom trays.",
+        "description_long": "Professional teeth whitening lightens the natural color of enamel using clinically tested peroxide-based gels. Unlike over-the-counter products, the procedure is carried out or supervised by a dental professional, with isolation of gums and lips to maximize comfort and minimize side effects.\n\nWhitening is suited to patients with healthy teeth and gums who are unhappy with the color of their smile, especially when it has darkened due to age, coffee, tea, red wine or tobacco. It does not change the color of crowns, veneers or fillings, so we always assess the smile globally before treatment.\n\nWe offer two main options. In-office whitening lightens the smile in a single one-hour session at the clinic. The guided home protocol uses custom-made trays you wear at home for one to two weeks, with milder gels and very gradual results. The two approaches can also be combined for maximum effect.\n\nResults typically last from one to three years, depending on lifestyle. Mild and temporary sensitivity is the most common side effect and tends to disappear within a few days. We use modern gels with desensitizing agents to make the experience as comfortable as possible.",
+        "who_for": ["Adults with healthy teeth and gums", "Patients with stained or yellowed enamel", "Brides, grooms and special events", "Patients dissatisfied with the color of their natural smile"],
+        "benefits": ["Visibly brighter smile", "Safe, clinically supervised process", "Customizable in-office or at-home protocols", "Long-lasting results with simple maintenance"],
+        "process_steps": ["Pre-whitening check and color recording", "Optional professional cleaning beforehand", "In-office session or delivery of custom trays", "Post-treatment review and home-care advice"],
+        "faq": [
+          {"q": "Will whitening damage my enamel?", "a": "Professional whitening at the recommended concentrations does not damage enamel. We always evaluate teeth and gums before treatment to confirm you are a suitable candidate."},
+          {"q": "How white can my teeth become?", "a": "On average teeth lighten by several shades. The final result depends on the starting color, dentine thickness and the protocol chosen."},
+          {"q": "Is it painful?", "a": "Some patients experience mild, temporary sensitivity during or shortly after the procedure. Modern gels with desensitizers significantly reduce this effect."},
+          {"q": "How long do the results last?", "a": "Typically one to three years. Avoiding heavy staining habits and the occasional touch-up at home help to preserve the result."}
+        ]
+      },
+      "it": {
+        "name": "Sbiancamento professionale",
+        "tagline": "Un sorriso più luminoso in una seduta, in sicurezza e sotto controllo clinico.",
+        "description_short": "Lo sbiancamento professionale schiarisce il tono dello smalto in modo controllato. Disponibile in studio o con protocollo domiciliare guidato e mascherine su misura.",
+        "description_long": "Lo sbiancamento professionale schiarisce il colore naturale dello smalto utilizzando gel a base di perossido clinicamente testati. A differenza dei prodotti da banco, la procedura è eseguita o supervisionata dal dentista, con isolamento di gengive e labbra per massimo comfort e minimi effetti collaterali.\n\nÈ indicato per chi ha denti e gengive in salute e desidera un sorriso più luminoso, soprattutto quando il colore si è scurito a causa dell'età, di caffè, tè, vino rosso o fumo. Non modifica il colore di corone, faccette o otturazioni, quindi valutiamo sempre il sorriso nel suo insieme prima del trattamento.\n\nProponiamo due opzioni principali. Lo sbiancamento in studio schiarisce il sorriso in una singola seduta da circa un'ora. Il protocollo domiciliare guidato prevede mascherine su misura da indossare a casa per una o due settimane, con gel più delicati e risultati graduali. I due approcci si possono combinare per un effetto massimo.\n\nIl risultato in genere si mantiene da uno a tre anni, in base allo stile di vita. Una lieve sensibilità transitoria è l'effetto collaterale più comune e tende a scomparire in pochi giorni. Utilizziamo gel moderni con agenti desensibilizzanti per rendere l'esperienza il più confortevole possibile.",
+        "who_for": ["Adulti con denti e gengive in salute", "Pazienti con denti macchiati o ingialliti", "Sposi e occasioni speciali", "Chi non è soddisfatto del colore del proprio sorriso"],
+        "benefits": ["Sorriso visibilmente più luminoso", "Procedura sicura e supervisionata", "Protocolli personalizzabili in studio o a casa", "Risultati duraturi con una manutenzione semplice"],
+        "process_steps": ["Valutazione preliminare e rilevazione del colore", "Eventuale igiene professionale prima dello sbiancamento", "Seduta in studio o consegna delle mascherine su misura", "Controllo finale e consigli per il mantenimento"],
+        "faq": [
+          {"q": "Lo sbiancamento danneggia lo smalto?", "a": "Lo sbiancamento professionale, alle concentrazioni raccomandate, non danneggia lo smalto. Valutiamo sempre denti e gengive prima del trattamento per confermare la tua idoneità."},
+          {"q": "Quanto possono diventare bianchi i denti?", "a": "In media i denti schiariscono di alcune tonalità. Il risultato finale dipende dal colore di partenza, dallo spessore della dentina e dal protocollo scelto."},
+          {"q": "È doloroso?", "a": "Alcuni pazienti avvertono una leggera sensibilità transitoria durante o dopo il trattamento. I gel moderni con agenti desensibilizzanti la riducono in modo significativo."},
+          {"q": "Quanto dura il risultato?", "a": "In genere da uno a tre anni. Evitare abitudini molto pigmentanti e occasionali ritocchi a casa aiutano a mantenere il risultato."}
+        ]
+      },
+      "es": {
+        "name": "Blanqueamiento profesional",
+        "tagline": "Una sonrisa más luminosa en una sesión, con seguridad y supervisión clínica.",
+        "description_short": "El blanqueamiento profesional aclara el tono del esmalte de forma controlada. Disponible en clínica o con protocolo domiciliario guiado y férulas a medida.",
+        "description_long": "El blanqueamiento profesional aclara el color natural del esmalte mediante geles a base de peróxido clínicamente testados. A diferencia de los productos de venta libre, el procedimiento lo realiza o supervisa un odontólogo, con aislamiento de encías y labios para maximizar la comodidad y minimizar los efectos secundarios.\n\nEstá indicado en personas con dientes y encías sanos que desean una sonrisa más luminosa, sobre todo cuando el color se ha oscurecido por la edad, el café, el té, el vino tinto o el tabaco. No modifica el color de coronas, carillas u obturaciones, por lo que valoramos siempre la sonrisa en conjunto.\n\nOfrecemos dos opciones principales. El blanqueamiento en clínica aclara la sonrisa en una sola sesión de aproximadamente una hora. El protocolo domiciliario guiado utiliza férulas a medida que se llevan en casa durante una o dos semanas, con geles más suaves y resultados graduales. Ambas opciones se pueden combinar para un efecto máximo.\n\nEl resultado suele mantenerse entre uno y tres años, según el estilo de vida. Una ligera sensibilidad transitoria es el efecto secundario más habitual y desaparece en pocos días. Utilizamos geles modernos con agentes desensibilizantes para una experiencia lo más cómoda posible.",
+        "who_for": ["Adultos con dientes y encías sanos", "Pacientes con dientes manchados o amarillentos", "Bodas y eventos especiales", "Personas insatisfechas con el color de su sonrisa"],
+        "benefits": ["Sonrisa visiblemente más luminosa", "Procedimiento seguro y supervisado", "Protocolos personalizables en clínica o en casa", "Resultados duraderos con un mantenimiento sencillo"],
+        "process_steps": ["Valoración previa y registro del color", "Higiene profesional previa si es necesaria", "Sesión en clínica o entrega de férulas a medida", "Revisión final y consejos de mantenimiento"],
+        "faq": [
+          {"q": "¿El blanqueamiento daña el esmalte?", "a": "El blanqueamiento profesional a las concentraciones recomendadas no daña el esmalte. Antes del tratamiento valoramos siempre dientes y encías para confirmar tu idoneidad."},
+          {"q": "¿Cuánto se pueden blanquear los dientes?", "a": "De media los dientes aclaran varios tonos. El resultado final depende del color de partida, del grosor de la dentina y del protocolo elegido."},
+          {"q": "¿Duele?", "a": "Algunas personas notan una ligera sensibilidad transitoria durante o tras el tratamiento. Los geles modernos con agentes desensibilizantes la reducen mucho."},
+          {"q": "¿Cuánto duran los resultados?", "a": "Habitualmente entre uno y tres años. Evitar hábitos muy pigmentantes y algún retoque en casa ayudan a mantener el resultado."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "faccette-dentali",
+    "category": "estetica",
+    "icon_keyword": "layers",
+    "priority": 1,
+    "price_orientative_eur_from": 600,
+    "price_orientative_eur_to": 1500,
+    "duration_minutes": 90,
+    "sessions_typical": 3,
+    "i18n": {
+      "en": {
+        "name": "Dental Veneers",
+        "tagline": "Ultra-thin ceramic veneers for a harmonious, natural-looking smile.",
+        "description_short": "Thin ceramic shells bonded to the front of teeth to refine shape, color and proportions. A minimally invasive way to redesign your smile.",
+        "description_long": "Dental veneers are thin ceramic shells custom-made to cover the front surface of the teeth. They allow us to refine color, shape and proportions with a minimally invasive approach, often without anesthesia and with little or no removal of tooth structure.\n\nVeneers are an excellent choice for discolored teeth that do not respond to whitening, small chips and fractures, gaps between teeth or mildly worn anterior teeth. They are not a treatment for severe misalignment, where orthodontics is the first option.\n\nThe process usually takes three appointments over two to three weeks. We start with a digital smile design, where we share a preview of the expected result. Then we prepare the teeth, take a precise scan and apply temporary veneers. Once the master ceramist has crafted the final veneers, they are bonded with a strong adhesive protocol.\n\nAt DentalIA we work with experienced ceramists who layer the porcelain to mimic natural translucency and surface texture. With proper hygiene and protection from heavy biting forces, modern veneers can last fifteen years or more.",
+        "who_for": ["Adults with healthy teeth and gums", "Patients with discoloration resistant to whitening", "Small chips, fractures or gaps", "Mild aesthetic asymmetries"],
+        "benefits": ["Minimally invasive smile redesign", "Highly natural appearance", "Stain-resistant ceramic surface", "Long-term durability with proper care"],
+        "process_steps": ["Smile design consultation with digital preview", "Minimal tooth preparation and intraoral scan", "Temporary veneers and try-in phase", "Final bonding and polishing"],
+        "faq": [
+          {"q": "Do you need to grind down my teeth a lot?", "a": "No. Modern veneers usually require only a very thin layer of enamel reduction, and in selected cases none at all."},
+          {"q": "Are veneers reversible?", "a": "Once enamel is removed, the change is permanent. Whenever possible we use ultra-conservative or no-prep protocols, but you should consider veneers a long-term commitment."},
+          {"q": "Will they stain?", "a": "Ceramic does not absorb pigments the way enamel does, so veneers are highly stain-resistant. The natural teeth around them can still change color over time."},
+          {"q": "How long do they last?", "a": "With good hygiene and a night guard if you grind your teeth, veneers regularly last fifteen years or more."}
+        ]
+      },
+      "it": {
+        "name": "Faccette dentali",
+        "tagline": "Faccette ceramiche ultrasottili per un sorriso armonico e dall'aspetto naturale.",
+        "description_short": "Sottili lamine in ceramica applicate sulla superficie frontale dei denti per migliorare forma, colore e proporzioni. Un modo poco invasivo per ridisegnare il sorriso.",
+        "description_long": "Le faccette dentali sono sottili lamine in ceramica realizzate su misura per rivestire la superficie frontale dei denti. Permettono di intervenire su colore, forma e proporzioni con un approccio poco invasivo, spesso senza anestesia e con limatura minima o nulla.\n\nSono indicate per denti discromici che non rispondono allo sbiancamento, piccole fratture, diastemi o lieve usura dei denti anteriori. Non sostituiscono l'ortodonzia in caso di disallineamenti importanti, dove la prima scelta resta il trattamento ortodontico.\n\nIl percorso prevede in genere tre appuntamenti distribuiti in due-tre settimane. Si parte da un progetto digitale del sorriso, in cui condividiamo un'anteprima del risultato. Si procede poi alla preparazione dei denti, alla scansione di precisione e all'applicazione di provvisori. Una volta realizzate dal maestro ceramista, le faccette definitive vengono cementate con un protocollo adesivo evoluto.\n\nIn DentalIA collaboriamo con ceramisti esperti che stratificano la porcellana per riprodurre la traslucenza e la texture dei denti naturali. Con una buona igiene e la protezione da sovraccarichi, le faccette moderne possono durare quindici anni o più.",
+        "who_for": ["Adulti con denti e gengive in salute", "Pazienti con discromie resistenti allo sbiancamento", "Piccole fratture, scheggiature o diastemi", "Lievi asimmetrie estetiche"],
+        "benefits": ["Ridisegno del sorriso poco invasivo", "Estetica molto naturale", "Superficie ceramica resistente alle macchie", "Durata pluriennale con le giuste attenzioni"],
+        "process_steps": ["Consulto di smile design con anteprima digitale", "Preparazione minima e scansione intraorale", "Faccette provvisorie e prova estetica", "Cementazione definitiva e lucidatura"],
+        "faq": [
+          {"q": "Servono molte limature?", "a": "No. Le faccette moderne richiedono in genere una limatura molto sottile dello smalto e, in casi selezionati, possono essere applicate senza alcuna preparazione."},
+          {"q": "Le faccette sono reversibili?", "a": "Una volta limato lo smalto, la modifica è permanente. Quando possibile usiamo protocolli ultra-conservativi o no-prep, ma le faccette restano una scelta a lungo termine."},
+          {"q": "Si macchiano?", "a": "La ceramica non assorbe i pigmenti come lo smalto, quindi le faccette sono molto resistenti alle macchie. I denti naturali intorno possono comunque variare di colore nel tempo."},
+          {"q": "Quanto durano?", "a": "Con una buona igiene e un bite notturno in caso di bruxismo, le faccette durano regolarmente quindici anni o più."}
+        ]
+      },
+      "es": {
+        "name": "Carillas dentales",
+        "tagline": "Carillas cerámicas ultrafinas para una sonrisa armónica y de aspecto natural.",
+        "description_short": "Finas láminas de cerámica aplicadas sobre la superficie frontal de los dientes para mejorar forma, color y proporciones. Una forma poco invasiva de rediseñar la sonrisa.",
+        "description_long": "Las carillas dentales son finas láminas de cerámica hechas a medida para recubrir la cara frontal de los dientes. Permiten intervenir sobre color, forma y proporciones con un enfoque mínimamente invasivo, a menudo sin anestesia y con tallado muy reducido o nulo.\n\nEstán indicadas para dientes con discromías resistentes al blanqueamiento, pequeñas fracturas, diastemas o desgaste leve de los dientes anteriores. No sustituyen a la ortodoncia en casos de desalineación importante, donde el tratamiento ortodóncico sigue siendo la primera opción.\n\nEl proceso suele realizarse en tres citas a lo largo de dos o tres semanas. Empezamos con un diseño digital de la sonrisa, en el que compartimos una previsualización del resultado. Después se preparan los dientes, se realiza un escáner de precisión y se colocan provisionales. Una vez confeccionadas por el ceramista, las carillas definitivas se cementan con un protocolo adhesivo evolucionado.\n\nEn DentalIA colaboramos con ceramistas con amplia experiencia, que estratifican la porcelana para reproducir la translucidez y la textura de los dientes naturales. Con una buena higiene y protección frente a sobrecargas, las carillas modernas pueden durar quince años o más.",
+        "who_for": ["Adultos con dientes y encías sanos", "Pacientes con discromías resistentes al blanqueamiento", "Pequeñas fracturas, fisuras o diastemas", "Asimetrías estéticas leves"],
+        "benefits": ["Rediseño de la sonrisa poco invasivo", "Estética muy natural", "Cerámica resistente a las manchas", "Larga duración con los cuidados adecuados"],
+        "process_steps": ["Consulta de diseño de sonrisa con previsualización digital", "Preparación mínima y escáner intraoral", "Carillas provisionales y prueba estética", "Cementado definitivo y pulido"],
+        "faq": [
+          {"q": "¿Hay que tallar mucho los dientes?", "a": "No. Las carillas modernas requieren un tallado muy fino del esmalte y, en casos seleccionados, pueden colocarse sin preparación alguna."},
+          {"q": "¿Son reversibles?", "a": "Una vez tallado el esmalte, el cambio es permanente. Cuando es posible usamos protocolos ultraconservadores o no-prep, pero las carillas son una decisión a largo plazo."},
+          {"q": "¿Se manchan?", "a": "La cerámica no absorbe los pigmentos como el esmalte, por lo que las carillas son muy resistentes a las manchas. Los dientes naturales adyacentes sí pueden cambiar de color con el tiempo."},
+          {"q": "¿Cuánto duran?", "a": "Con buena higiene y una férula nocturna si hay bruxismo, las carillas duran habitualmente quince años o más."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "endodonzia",
+    "category": "conservativa",
+    "icon_keyword": "shield",
+    "priority": 2,
+    "price_orientative_eur_from": 250,
+    "price_orientative_eur_to": 700,
+    "duration_minutes": 75,
+    "sessions_typical": 1,
+    "i18n": {
+      "en": {
+        "name": "Root Canal Treatment",
+        "tagline": "A precise way to save a tooth affected by deep decay or infection.",
+        "description_short": "When the pulp is irreversibly damaged, root canal therapy removes the infected tissue, disinfects the canals and seals them, saving the tooth.",
+        "description_long": "Root canal treatment, or endodontics, is the most effective way to save a tooth in which the inner pulp is inflamed or infected. It is usually needed after deep decay, repeated dental work, trauma or a crack reaching the pulp.\n\nUntreated pulp infection causes severe pain, abscesses and risk of tooth loss. Endodontic therapy removes the damaged tissue, disinfects and shapes the root canals and seals them with a biocompatible filling. The tooth then becomes pain-free and can usually be preserved for many years.\n\nThe procedure is performed under local anesthesia and typically takes between one and one-and-a-half hours, often in a single appointment. We use rubber dam isolation, magnification with surgical microscope and nickel-titanium instruments for predictable, minimally invasive treatment.\n\nAfter the root canal, a definitive restoration is essential to protect the tooth from fracture, often a crown or a partial ceramic restoration. At DentalIA endodontics is led by clinicians with specific training in this discipline.",
+        "who_for": ["Patients with severe toothache", "Teeth with deep decay or fractures involving the pulp", "Patients with dental abscesses", "Teeth retreated after a failing previous endodontic treatment"],
+        "benefits": ["Saves the natural tooth", "Eliminates pain and infection", "Avoids extraction and need for an implant", "Predictable, high-success procedure"],
+        "process_steps": ["Diagnosis with periapical X-ray", "Local anesthesia and rubber dam isolation", "Cleaning, shaping and disinfection of canals", "Filling of canals and provisional restoration", "Final restoration, often a crown"],
+        "faq": [
+          {"q": "Is it painful?", "a": "Modern endodontics is performed under effective local anesthesia and is generally not painful. Many patients are surprised by how comfortable it is."},
+          {"q": "How long does the treated tooth last?", "a": "With a proper final restoration and good hygiene, an endodontically treated tooth can last for many years, often a lifetime."},
+          {"q": "Do I need a crown afterwards?", "a": "Often yes. Posterior teeth in particular benefit from a crown or onlay to prevent fracture."},
+          {"q": "Will I be able to eat normally?", "a": "Yes, we recommend chewing carefully on the treated side for a few days, especially while the temporary restoration is in place."}
+        ]
+      },
+      "it": {
+        "name": "Endodonzia (devitalizzazione)",
+        "tagline": "Un modo preciso per salvare un dente colpito da carie profonda o infezione.",
+        "description_short": "Quando la polpa è danneggiata in modo irreversibile, l'endodonzia rimuove il tessuto infetto, disinfetta i canali e li sigilla, salvando il dente.",
+        "description_long": "L'endodonzia, comunemente chiamata devitalizzazione, è il modo più efficace per salvare un dente in cui la polpa interna è infiammata o infetta. Si rende necessaria dopo carie profonde, ripetuti interventi sullo stesso dente, traumi o fratture che raggiungono la polpa.\n\nUn'infezione polpare non trattata provoca dolore intenso, ascessi e rischio di perdita del dente. La terapia rimuove il tessuto danneggiato, disinfetta e sagoma i canali radicolari e li sigilla con un materiale biocompatibile. Il dente diventa quindi indolore e può essere conservato per molti anni.\n\nLa procedura è eseguita in anestesia locale e dura tipicamente tra un'ora e un'ora e mezza, spesso in una sola seduta. Utilizziamo l'isolamento con diga di gomma, l'ingrandimento con microscopio operatorio e strumenti in nichel-titanio per un trattamento predicibile e poco invasivo.\n\nDopo la devitalizzazione è essenziale un restauro definitivo per proteggere il dente dalla frattura, spesso una corona o un restauro parziale in ceramica. In DentalIA l'endodonzia è seguita da clinici con formazione specifica in questa disciplina.",
+        "who_for": ["Pazienti con forte mal di denti", "Denti con carie profonde o fratture fino alla polpa", "Pazienti con ascessi dentari", "Denti da ritrattare dopo un'endodonzia fallita"],
+        "benefits": ["Salva il dente naturale", "Elimina dolore e infezione", "Evita l'estrazione e l'impianto", "Procedura ad alta predicibilità"],
+        "process_steps": ["Diagnosi con radiografia periapicale", "Anestesia locale e isolamento con diga di gomma", "Pulizia, sagomatura e disinfezione dei canali", "Otturazione dei canali e restauro provvisorio", "Restauro definitivo, spesso una corona"],
+        "faq": [
+          {"q": "È dolorosa?", "a": "L'endodonzia moderna è eseguita in anestesia locale efficace ed è generalmente indolore. Molti pazienti si sorprendono di quanto sia confortevole."},
+          {"q": "Quanto dura il dente trattato?", "a": "Con un restauro definitivo corretto e una buona igiene, un dente devitalizzato può durare molti anni, spesso tutta la vita."},
+          {"q": "Servirà una corona dopo?", "a": "Spesso sì. I denti posteriori in particolare beneficiano di una corona o di un onlay per prevenire fratture."},
+          {"q": "Potrò mangiare normalmente?", "a": "Sì, consigliamo di masticare con prudenza sul lato trattato per qualche giorno, soprattutto con il provvisorio in sede."}
+        ]
+      },
+      "es": {
+        "name": "Endodoncia",
+        "tagline": "Una forma precisa de salvar un diente afectado por caries profunda o infección.",
+        "description_short": "Cuando la pulpa está dañada de forma irreversible, la endodoncia retira el tejido infectado, desinfecta los conductos y los sella, salvando el diente.",
+        "description_long": "La endodoncia es la forma más eficaz de salvar un diente cuya pulpa interna está inflamada o infectada. Suele ser necesaria tras caries profundas, intervenciones repetidas sobre el mismo diente, traumatismos o fracturas que alcanzan la pulpa.\n\nUna infección pulpar no tratada provoca dolor intenso, abscesos y riesgo de pérdida del diente. La endodoncia retira el tejido dañado, desinfecta y conforma los conductos radiculares y los sella con un material biocompatible. El diente queda libre de dolor y puede conservarse durante muchos años.\n\nEl tratamiento se realiza con anestesia local y suele durar entre una hora y una hora y media, a menudo en una única cita. Utilizamos aislamiento con dique de goma, magnificación con microscopio quirúrgico e instrumentos de níquel-titanio para una endodoncia predecible y mínimamente invasiva.\n\nTras la endodoncia es esencial una restauración definitiva que proteja el diente frente a la fractura, a menudo una corona o un recubrimiento parcial cerámico. En DentalIA la endodoncia la realizan clínicos con formación específica en esta disciplina.",
+        "who_for": ["Pacientes con fuerte dolor de muelas", "Dientes con caries profundas o fracturas que afectan la pulpa", "Pacientes con abscesos dentales", "Dientes que requieren retratamiento endodóncico"],
+        "benefits": ["Conserva el diente natural", "Elimina dolor e infección", "Evita la extracción y la necesidad de implante", "Procedimiento altamente predecible"],
+        "process_steps": ["Diagnóstico con radiografía periapical", "Anestesia local y aislamiento con dique de goma", "Limpieza, conformación y desinfección de los conductos", "Obturación de los conductos y restauración provisional", "Restauración definitiva, a menudo una corona"],
+        "faq": [
+          {"q": "¿Es dolorosa?", "a": "La endodoncia moderna se realiza con anestesia local eficaz y suele ser indolora. Muchos pacientes se sorprenden de lo cómoda que resulta."},
+          {"q": "¿Cuánto dura el diente tratado?", "a": "Con una restauración definitiva adecuada y buena higiene, un diente endodonciado puede durar muchos años, a menudo toda la vida."},
+          {"q": "¿Hace falta una corona después?", "a": "A menudo sí. Los dientes posteriores en particular se benefician de una corona o un onlay para prevenir fracturas."},
+          {"q": "¿Podré comer normalmente?", "a": "Sí, recomendamos masticar con cuidado del lado tratado durante unos días, sobre todo mientras está colocada la restauración provisional."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "otturazioni-estetiche",
+    "category": "conservativa",
+    "icon_keyword": "feather",
+    "priority": 3,
+    "price_orientative_eur_from": 90,
+    "price_orientative_eur_to": 250,
+    "duration_minutes": 45,
+    "sessions_typical": 1,
+    "i18n": {
+      "en": {
+        "name": "Aesthetic Fillings",
+        "tagline": "Composite restorations that repair cavities while preserving the look of natural enamel.",
+        "description_short": "Tooth-colored composite restorations rebuild teeth damaged by decay, fractures or wear. Discreet, durable and minimally invasive.",
+        "description_long": "Aesthetic fillings use modern composite materials in different shades to repair teeth affected by decay, small fractures or wear. The result blends in seamlessly with the natural enamel, both on front and back teeth.\n\nThis approach is minimally invasive. Only the damaged tissue is removed, and the composite is bonded to the remaining tooth structure with an adhesive protocol. There is no need for the metal alloys used in traditional fillings.\n\nA typical session lasts between thirty and forty-five minutes per tooth, almost always in a single appointment. We use rubber dam isolation, magnification and layering techniques to obtain a precise color match and a durable, well-sealed result.\n\nAt DentalIA we choose high-quality composites and reserve direct restorations for cases where they offer the best mix of conservation, aesthetics and durability. When more tooth structure is missing, we discuss alternatives such as ceramic inlays.",
+        "who_for": ["Patients with new cavities", "Patients who want to replace old amalgam fillings", "Small fractures of front or back teeth", "Mild wear from grinding or erosion"],
+        "benefits": ["Natural, tooth-colored result", "Minimally invasive preparation", "Strong adhesive bond", "Comfortable single-visit procedure"],
+        "process_steps": ["Diagnosis and shade selection", "Local anesthesia if needed", "Removal of decay and tooth preparation", "Layering of composite and curing", "Polishing and bite check"],
+        "faq": [
+          {"q": "Are composite fillings as strong as metal ones?", "a": "Modern composites are highly durable and well suited to most clinical situations. For very large restorations on back teeth we sometimes recommend a ceramic onlay instead."},
+          {"q": "How long do they last?", "a": "On average eight to ten years and often more, depending on size, position and your habits."},
+          {"q": "Will they stain?", "a": "Quality composites are stain-resistant, although heavy coffee, tea or smoking can slightly affect the surface over time. Polishing can refresh the appearance."},
+          {"q": "Should I replace my old amalgam fillings?", "a": "Not necessarily. We evaluate each filling on its merits. If it is intact and well-sealed, replacement is not always justified."}
+        ]
+      },
+      "it": {
+        "name": "Otturazioni estetiche",
+        "tagline": "Restauri in composito che riparano la carie mantenendo l'aspetto naturale dello smalto.",
+        "description_short": "Restauri in composito del colore del dente per ripristinare denti rovinati da carie, piccole fratture o usura. Discreti, duraturi e poco invasivi.",
+        "description_long": "Le otturazioni estetiche utilizzano compositi moderni in diverse tonalità per riparare denti colpiti da carie, piccole fratture o usura. Il risultato si integra con lo smalto naturale, sia sui denti anteriori sia sui posteriori.\n\nL'approccio è poco invasivo. Si rimuove solo il tessuto danneggiato e il composito viene incollato al dente residuo con un protocollo adesivo, senza ricorrere alle leghe metalliche delle otturazioni tradizionali.\n\nUna seduta tipica dura tra trenta e quarantacinque minuti per dente, quasi sempre in un solo appuntamento. Utilizziamo isolamento con diga di gomma, ingrandimento e tecniche di stratificazione per ottenere una corrispondenza cromatica precisa e un risultato duraturo e ben sigillato.\n\nIn DentalIA scegliamo compositi di alta qualità e proponiamo i restauri diretti quando offrono il miglior compromesso tra conservazione, estetica e durata. Quando la perdita di tessuto è maggiore, valutiamo alternative come intarsi in ceramica.",
+        "who_for": ["Pazienti con nuove carie", "Chi desidera sostituire vecchie otturazioni in amalgama", "Piccole fratture su denti anteriori o posteriori", "Lieve usura da bruxismo o erosione"],
+        "benefits": ["Risultato naturale, del colore del dente", "Preparazione poco invasiva", "Solido legame adesivo", "Procedura confortevole in una sola seduta"],
+        "process_steps": ["Diagnosi e selezione del colore", "Anestesia locale se necessaria", "Rimozione della carie e preparazione del dente", "Stratificazione e fotopolimerizzazione del composito", "Lucidatura e controllo dell'occlusione"],
+        "faq": [
+          {"q": "Le otturazioni in composito sono robuste come quelle in metallo?", "a": "I compositi moderni sono molto resistenti e adatti alla maggior parte delle situazioni cliniche. Per restauri molto ampi sui posteriori a volte consigliamo invece un intarsio in ceramica."},
+          {"q": "Quanto durano?", "a": "In media otto-dieci anni e spesso di più, in base a dimensioni, posizione e abitudini."},
+          {"q": "Si macchiano?", "a": "I compositi di qualità sono resistenti alle macchie, anche se molto caffè, tè o fumo possono alterare leggermente la superficie nel tempo. Una lucidatura può rinfrescare l'aspetto."},
+          {"q": "Devo sostituire le vecchie amalgame?", "a": "Non necessariamente. Valutiamo ogni otturazione singolarmente: se è integra e ben sigillata, la sostituzione non è sempre giustificata."}
+        ]
+      },
+      "es": {
+        "name": "Empastes estéticos",
+        "tagline": "Restauraciones de composite que reparan caries manteniendo el aspecto del esmalte natural.",
+        "description_short": "Restauraciones de composite del color del diente para reparar caries, pequeñas fracturas o desgastes. Discretas, duraderas y poco invasivas.",
+        "description_long": "Los empastes estéticos utilizan composites modernos en distintos tonos para reparar dientes afectados por caries, pequeñas fracturas o desgaste. El resultado se integra con el esmalte natural, tanto en dientes anteriores como posteriores.\n\nEl enfoque es poco invasivo. Solo se retira el tejido dañado y el composite se adhiere al diente remanente con un protocolo adhesivo, sin recurrir a las aleaciones metálicas de los empastes tradicionales.\n\nUna sesión típica dura entre treinta y cuarenta y cinco minutos por diente, casi siempre en una sola cita. Utilizamos aislamiento con dique de goma, magnificación y técnicas de estratificación para conseguir una correspondencia cromática precisa y un resultado duradero y bien sellado.\n\nEn DentalIA elegimos composites de alta calidad y proponemos restauraciones directas cuando ofrecen el mejor equilibrio entre conservación, estética y durabilidad. Cuando la pérdida de tejido es mayor, valoramos alternativas como las incrustaciones cerámicas.",
+        "who_for": ["Pacientes con nuevas caries", "Personas que quieren sustituir antiguas amalgamas", "Pequeñas fracturas en dientes anteriores o posteriores", "Desgaste leve por bruxismo o erosión"],
+        "benefits": ["Resultado natural, del color del diente", "Preparación poco invasiva", "Unión adhesiva sólida", "Procedimiento cómodo en una sola sesión"],
+        "process_steps": ["Diagnóstico y selección del color", "Anestesia local si es necesaria", "Eliminación de la caries y preparación del diente", "Estratificación y fotopolimerización del composite", "Pulido y comprobación de la oclusión"],
+        "faq": [
+          {"q": "¿Los composites son tan resistentes como los empastes metálicos?", "a": "Los composites modernos son muy duraderos y adecuados para la mayoría de situaciones clínicas. En restauraciones muy amplias en dientes posteriores a veces recomendamos una incrustación cerámica."},
+          {"q": "¿Cuánto duran?", "a": "De media entre ocho y diez años, y a menudo más, según el tamaño, la posición y los hábitos del paciente."},
+          {"q": "¿Se manchan?", "a": "Los composites de calidad son resistentes a las manchas, aunque mucho café, té o tabaco pueden alterar ligeramente la superficie con el tiempo. Un pulido puede refrescar el aspecto."},
+          {"q": "¿Debo cambiar mis antiguos empastes de amalgama?", "a": "No necesariamente. Valoramos cada empaste por separado: si está íntegro y bien sellado, la sustitución no siempre está justificada."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "protesi-dentale",
+    "category": "conservativa",
+    "icon_keyword": "puzzle",
+    "priority": 2,
+    "price_orientative_eur_from": 500,
+    "price_orientative_eur_to": 3500,
+    "duration_minutes": 60,
+    "sessions_typical": 4,
+    "i18n": {
+      "en": {
+        "name": "Dental Prosthetics",
+        "tagline": "Crowns, bridges and dentures designed to restore function and confidence.",
+        "description_short": "Custom-made crowns, bridges and dentures replace damaged or missing teeth, restoring chewing, speech and aesthetics.",
+        "description_long": "Dental prosthetics covers all the solutions used to replace damaged or missing teeth, from a single crown to a complete denture. The goal is always the same: restore chewing, speech and aesthetics with a result that feels natural and respects the surrounding biology.\n\nFixed prosthetics, such as crowns and bridges, are cemented onto natural teeth or implants and stay in place. They are the first choice when we want a stable, indistinguishable replacement of one or more missing teeth. Removable prosthetics, partial or complete, are taken out for cleaning and can be a more accessible option in selected clinical situations.\n\nThe process usually requires three to four appointments over two to four weeks. We start with planning and impressions, then prepare the abutment teeth or implants, deliver temporaries and finalize with the definitive prosthesis. Digital scanning has made the experience faster and far more precise.\n\nAt DentalIA we work with master dental technicians using zirconia, lithium disilicate ceramics and resin-based materials selected for each clinical context. Our objective is a result that lasts and looks like it belongs in your mouth.",
+        "who_for": ["Patients with damaged teeth requiring crowns", "Patients with one or more missing teeth", "Denture wearers who need a renewal", "Patients with extensive wear or old prosthetics"],
+        "benefits": ["Restored chewing function", "Natural-looking smile", "Long-lasting materials with documented track record", "Modular options tailored to each clinical case"],
+        "process_steps": ["Planning and digital records", "Preparation of abutment teeth or implant impressions", "Temporary prosthesis and aesthetic try-in", "Delivery of the final prosthesis and bite adjustment"],
+        "faq": [
+          {"q": "What is the difference between a crown and a veneer?", "a": "A crown covers the whole tooth and is used when there is significant damage, while a veneer covers only the front surface for aesthetic improvements."},
+          {"q": "Are zirconia crowns better than ceramic ones?", "a": "It depends on the clinical case. Zirconia is extremely strong and ideal for back teeth, while lithium disilicate often offers superior aesthetics on front teeth."},
+          {"q": "Will I get used to a denture?", "a": "Most patients adapt within a few weeks. Small adjustments in the first month are normal and we plan them as part of the treatment."},
+          {"q": "How long does a prosthesis last?", "a": "With good hygiene and regular check-ups, fixed prosthetics often last fifteen years or more, while removable dentures usually require renewal every five to seven years."}
+        ]
+      },
+      "it": {
+        "name": "Protesi dentale",
+        "tagline": "Corone, ponti e protesi pensati per restituire funzione e serenità.",
+        "description_short": "Corone, ponti e protesi su misura sostituiscono denti danneggiati o mancanti, restituendo masticazione, fonetica ed estetica.",
+        "description_long": "La protesi dentale comprende tutte le soluzioni utilizzate per sostituire denti danneggiati o mancanti, dalla singola corona alla protesi totale. L'obiettivo è sempre lo stesso: restituire masticazione, fonetica ed estetica con un risultato naturale e rispettoso della biologia.\n\nLa protesi fissa, come corone e ponti, viene cementata su denti naturali o impianti e resta in sede. È la prima scelta quando vogliamo una sostituzione stabile e indistinguibile di uno o più denti mancanti. La protesi removibile, parziale o totale, si toglie per essere pulita e può essere un'opzione più accessibile in situazioni cliniche selezionate.\n\nIl percorso prevede in genere da tre a quattro appuntamenti distribuiti in due-quattro settimane. Si parte da pianificazione e impronte, si preparano i denti pilastro o si rilevano le impronte sugli impianti, si applica una protesi provvisoria e si finalizza con quella definitiva. La scansione digitale ha reso l'esperienza più rapida e molto più precisa.\n\nIn DentalIA collaboriamo con odontotecnici di alto livello che lavorano zirconia, disilicato di litio e materiali resinosi selezionati per ogni contesto clinico. Cerchiamo un risultato che duri nel tempo e che sembri da sempre tuo.",
+        "who_for": ["Pazienti con denti molto compromessi che richiedono corone", "Pazienti con uno o più denti mancanti", "Portatori di protesi che hanno bisogno di un rinnovo", "Pazienti con usura importante o protesi datate"],
+        "benefits": ["Recupero della funzione masticatoria", "Sorriso dall'aspetto naturale", "Materiali duraturi e ampiamente documentati", "Soluzioni modulari adattate al caso clinico"],
+        "process_steps": ["Pianificazione e cartella digitale", "Preparazione dei denti pilastro o impronte sugli impianti", "Protesi provvisoria e prova estetica", "Consegna della protesi definitiva e regolazione dell'occlusione"],
+        "faq": [
+          {"q": "Che differenza c'è tra corona e faccetta?", "a": "La corona riveste tutto il dente e si usa in caso di danni importanti, mentre la faccetta copre solo la superficie frontale per miglioramenti estetici."},
+          {"q": "La zirconia è meglio della ceramica tradizionale?", "a": "Dipende dal caso. La zirconia è molto resistente e ideale per i posteriori, mentre il disilicato di litio spesso offre un'estetica superiore sui denti anteriori."},
+          {"q": "Mi abituerò a una protesi mobile?", "a": "La maggior parte dei pazienti si adatta in poche settimane. Piccole regolazioni nel primo mese sono normali e le pianifichiamo come parte del trattamento."},
+          {"q": "Quanto dura una protesi?", "a": "Con una buona igiene e controlli regolari le protesi fisse durano spesso quindici anni o più, mentre le removibili richiedono di solito un rinnovo ogni cinque-sette anni."}
+        ]
+      },
+      "es": {
+        "name": "Prótesis dental",
+        "tagline": "Coronas, puentes y prótesis pensados para devolver función y tranquilidad.",
+        "description_short": "Coronas, puentes y prótesis a medida sustituyen los dientes dañados o ausentes, restableciendo masticación, fonética y estética.",
+        "description_long": "La prótesis dental incluye todas las soluciones empleadas para sustituir dientes dañados o ausentes, desde una corona unitaria hasta una prótesis completa. El objetivo es siempre el mismo: devolver masticación, fonética y estética con un resultado natural y respetuoso con la biología.\n\nLa prótesis fija, como coronas y puentes, se cementa sobre dientes naturales o implantes y permanece en boca. Es la primera opción cuando buscamos una sustitución estable e indistinguible de uno o varios dientes ausentes. La prótesis removible, parcial o completa, se retira para limpiarla y puede ser una alternativa más accesible en situaciones clínicas seleccionadas.\n\nEl proceso suele requerir entre tres y cuatro citas a lo largo de dos a cuatro semanas. Empezamos con la planificación e impresiones, preparamos los dientes pilar o tomamos impresiones sobre los implantes, colocamos provisionales y finalizamos con la prótesis definitiva. El escaneado digital ha hecho la experiencia más rápida y mucho más precisa.\n\nEn DentalIA colaboramos con técnicos de laboratorio de alto nivel que trabajan circonio, disilicato de litio y resinas seleccionadas para cada contexto clínico. Buscamos un resultado duradero, que parezca tuyo desde siempre.",
+        "who_for": ["Pacientes con dientes muy comprometidos que requieren coronas", "Pacientes con uno o varios dientes ausentes", "Portadores de prótesis que necesitan renovación", "Pacientes con gran desgaste o prótesis antiguas"],
+        "benefits": ["Recuperación de la masticación", "Sonrisa con aspecto natural", "Materiales duraderos y ampliamente documentados", "Soluciones modulares adaptadas al caso clínico"],
+        "process_steps": ["Planificación y registros digitales", "Preparación de dientes pilar o impresiones sobre implantes", "Prótesis provisional y prueba estética", "Entrega de la prótesis definitiva y ajuste de la oclusión"],
+        "faq": [
+          {"q": "¿Qué diferencia hay entre una corona y una carilla?", "a": "La corona recubre todo el diente y se usa cuando hay daño importante, mientras que la carilla solo cubre la cara frontal para mejoras estéticas."},
+          {"q": "¿El circonio es mejor que la cerámica tradicional?", "a": "Depende del caso. El circonio es muy resistente, ideal para dientes posteriores, mientras que el disilicato de litio suele ofrecer mejor estética en los anteriores."},
+          {"q": "¿Me acostumbraré a una prótesis removible?", "a": "La mayoría de pacientes se adapta en pocas semanas. Pequeños ajustes durante el primer mes son normales y los planificamos como parte del tratamiento."},
+          {"q": "¿Cuánto dura una prótesis?", "a": "Con buena higiene y revisiones periódicas, las prótesis fijas suelen durar quince años o más, mientras que las removibles requieren renovación cada cinco a siete años."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "parodontologia",
+    "category": "preventiva",
+    "icon_keyword": "heart",
+    "priority": 2,
+    "price_orientative_eur_from": 80,
+    "price_orientative_eur_to": 500,
+    "duration_minutes": 60,
+    "sessions_typical": 2,
+    "i18n": {
+      "en": {
+        "name": "Periodontology (Gum Care)",
+        "tagline": "Specialist care for healthy gums and stable bone, the foundation of every smile.",
+        "description_short": "Diagnosis and treatment of gum disease and inflammation, with personalized protocols to restore healthy tissues and protect your teeth.",
+        "description_long": "Periodontology focuses on the tissues supporting the teeth, namely gums and bone. Gum disease is one of the most common causes of tooth loss in adults and often progresses silently. Early signs include bleeding when brushing, redness, swelling and bad breath.\n\nTreatment starts with a complete periodontal assessment, including measurement of the pockets around each tooth and X-rays when needed. Most cases respond well to a non-surgical protocol called deep cleaning or scaling and root planing, which removes plaque and tartar from below the gumline in one or two appointments.\n\nIn advanced cases we plan a tailored program that may include guided regeneration of lost bone, soft-tissue grafting and personalized maintenance therapy at three or four-month intervals to keep the disease under control.\n\nAt DentalIA periodontal care is delivered by clinicians and hygienists trained in the latest protocols. Our goal is to stabilize the disease, preserve your natural teeth as long as possible and provide a sustainable home-care routine.",
+        "who_for": ["Patients with bleeding or swollen gums", "Smokers", "Patients with diabetes", "Patients with a family history of gum disease"],
+        "benefits": ["Healthier, less inflamed gums", "Stabilization of bone loss", "Prevention of tooth loss", "Fresher breath and improved comfort"],
+        "process_steps": ["Periodontal examination with pocket measurement", "Personalized hygiene instruction", "Non-surgical deep cleaning", "Re-evaluation and tailored maintenance plan"],
+        "faq": [
+          {"q": "Is bleeding gums normal?", "a": "No. Bleeding when brushing or flossing is a sign of inflammation and should always be evaluated by a dental professional."},
+          {"q": "Can periodontitis be cured?", "a": "Periodontitis cannot be reversed, but it can be stabilized with the right treatment and maintenance. Many patients keep their teeth for a lifetime."},
+          {"q": "Will I need surgery?", "a": "Most cases respond to non-surgical treatment. Surgery is reserved for selected advanced situations and is always discussed in detail beforehand."},
+          {"q": "How often do I need maintenance visits?", "a": "Typically every three to four months after active treatment, to control inflammation and prevent relapse."}
+        ]
+      },
+      "it": {
+        "name": "Parodontologia",
+        "tagline": "Cure specialistiche per gengive sane e osso stabile, la base di ogni sorriso.",
+        "description_short": "Diagnosi e trattamento di malattia parodontale e infiammazioni gengivali, con protocolli personalizzati per restituire tessuti sani e proteggere i denti.",
+        "description_long": "La parodontologia si occupa dei tessuti che sostengono i denti, ossia gengive e osso. La malattia parodontale è tra le cause più comuni di perdita dei denti nell'adulto e spesso progredisce in modo silenzioso. I segnali precoci includono sanguinamento nello spazzolamento, arrossamento, gonfiore e alito cattivo.\n\nIl trattamento inizia con una valutazione parodontale completa, che comprende la misurazione delle tasche attorno a ogni dente e radiografie quando necessario. La maggior parte dei casi risponde bene a un protocollo non chirurgico, chiamato pulizia profonda o scaling e root planing, che rimuove placca e tartaro sotto il margine gengivale in una o due sedute.\n\nNei casi avanzati pianifichiamo un programma personalizzato che può includere rigenerazione guidata dell'osso perso, innesti di tessuto molle e una terapia di mantenimento ogni tre o quattro mesi per tenere la malattia sotto controllo.\n\nIn DentalIA la cura parodontale è seguita da clinici e igienisti formati sui protocolli più aggiornati. L'obiettivo è stabilizzare la malattia, preservare il più a lungo possibile i denti naturali e dare una routine di igiene domiciliare sostenibile.",
+        "who_for": ["Pazienti con gengive che sanguinano o sono gonfie", "Fumatori", "Pazienti con diabete", "Chi ha una storia familiare di malattia parodontale"],
+        "benefits": ["Gengive più sane e meno infiammate", "Stabilizzazione della perdita di osso", "Prevenzione della perdita dei denti", "Alito più fresco e maggiore comfort"],
+        "process_steps": ["Visita parodontale con sondaggio delle tasche", "Istruzione personalizzata all'igiene", "Pulizia profonda non chirurgica", "Rivalutazione e piano di mantenimento personalizzato"],
+        "faq": [
+          {"q": "Le gengive che sanguinano sono normali?", "a": "No. Il sanguinamento durante spazzolamento o uso del filo è un segno di infiammazione e va sempre valutato da un professionista."},
+          {"q": "La parodontite si può guarire?", "a": "La parodontite non si può invertire, ma si può stabilizzare con il giusto trattamento e mantenimento. Molti pazienti conservano i propri denti per tutta la vita."},
+          {"q": "Servirà un intervento chirurgico?", "a": "La maggior parte dei casi risponde a una terapia non chirurgica. La chirurgia è riservata a situazioni avanzate selezionate e viene sempre discussa nel dettaglio."},
+          {"q": "Ogni quanto faccio i mantenimenti?", "a": "In genere ogni tre-quattro mesi dopo la fase attiva, per controllare l'infiammazione e prevenire ricadute."}
+        ]
+      },
+      "es": {
+        "name": "Periodoncia",
+        "tagline": "Cuidado especializado para encías sanas y hueso estable, la base de toda sonrisa.",
+        "description_short": "Diagnóstico y tratamiento de la enfermedad periodontal y de las inflamaciones gingivales, con protocolos personalizados para devolver tejidos sanos y proteger los dientes.",
+        "description_long": "La periodoncia se ocupa de los tejidos que sostienen los dientes, es decir, las encías y el hueso. La enfermedad periodontal es una de las causas más frecuentes de pérdida de dientes en adultos y a menudo avanza de forma silenciosa. Los primeros signos incluyen sangrado al cepillarse, enrojecimiento, hinchazón y mal aliento.\n\nEl tratamiento empieza con una evaluación periodontal completa, incluyendo la medición de las bolsas alrededor de cada diente y radiografías cuando son necesarias. La mayoría de casos responde bien a un protocolo no quirúrgico llamado limpieza profunda o raspado y alisado radicular, que retira la placa y el sarro por debajo del margen gingival en una o dos sesiones.\n\nEn los casos avanzados planificamos un programa a medida que puede incluir regeneración guiada del hueso perdido, injertos de tejido blando y una terapia de mantenimiento cada tres o cuatro meses para tener la enfermedad bajo control.\n\nEn DentalIA el cuidado periodontal lo realizan clínicos e higienistas formados en los protocolos más actualizados. El objetivo es estabilizar la enfermedad, conservar los dientes naturales el mayor tiempo posible y ofrecer una rutina de higiene en casa sostenible.",
+        "who_for": ["Pacientes con encías que sangran o están hinchadas", "Fumadores", "Pacientes con diabetes", "Personas con antecedentes familiares de enfermedad periodontal"],
+        "benefits": ["Encías más sanas y menos inflamadas", "Estabilización de la pérdida de hueso", "Prevención de la pérdida dental", "Aliento más fresco y mayor confort"],
+        "process_steps": ["Examen periodontal con sondaje de bolsas", "Instrucción personalizada de higiene", "Limpieza profunda no quirúrgica", "Revaluación y plan de mantenimiento personalizado"],
+        "faq": [
+          {"q": "¿Es normal que sangren las encías?", "a": "No. El sangrado al cepillarse o usar la seda dental es un signo de inflamación y siempre debe ser evaluado por un profesional."},
+          {"q": "¿La periodontitis se cura?", "a": "La periodontitis no es reversible, pero se puede estabilizar con el tratamiento y el mantenimiento adecuados. Muchos pacientes conservan sus dientes toda la vida."},
+          {"q": "¿Necesitaré cirugía?", "a": "La mayoría de los casos responde a tratamiento no quirúrgico. La cirugía se reserva para situaciones avanzadas seleccionadas y siempre se comenta en detalle previamente."},
+          {"q": "¿Cada cuánto debo hacer el mantenimiento?", "a": "Habitualmente cada tres o cuatro meses tras la fase activa, para controlar la inflamación y prevenir recidivas."}
+        ]
+      }
+    }
+  },
+  {
+    "id_suggested": "odontoiatria-pediatrica",
+    "category": "pediatrica",
+    "icon_keyword": "baby",
+    "priority": 2,
+    "price_orientative_eur_from": 0,
+    "price_orientative_eur_to": 200,
+    "duration_minutes": 30,
+    "sessions_typical": 2,
+    "i18n": {
+      "en": {
+        "name": "Pediatric Dentistry",
+        "tagline": "Gentle, playful dental care designed for children and teenagers.",
+        "description_short": "Specialist care for milk teeth and growing mouths, with a focus on prevention, education and a positive experience for the child.",
+        "description_long": "Pediatric dentistry takes care of children from their first tooth through adolescence. The mouth of a growing child has very different needs from an adult: cavity prevention, monitoring of milk teeth, follow-up of the permanent dentition and early identification of orthodontic issues.\n\nThe first visit is recommended around the age of three, even when no problem is suspected. It is a short, playful appointment to familiarize the child with the clinic environment, allow a gentle examination and give parents practical advice on brushing, fluoride and diet.\n\nCommon treatments include fluoride applications, fissure sealants to protect the deep grooves of permanent molars, small composite restorations and management of dental trauma after a fall. Every procedure is adapted to the age of the patient with simple language, frequent breaks and a constant focus on building trust.\n\nAt DentalIA our pediatric team is selected for both clinical skill and ability to create a relaxed atmosphere. The objective is that children grow up considering the dentist as a friendly figure, not a source of anxiety.",
+        "who_for": ["Children from 3 years old", "Teenagers", "Children with their first cavities", "Children needing orthodontic monitoring"],
+        "benefits": ["Early cavity prevention", "Gentle, child-friendly experience", "Monitoring of dental development", "Positive long-term relationship with dentistry"],
+        "process_steps": ["First visit dedicated to familiarization", "Examination of teeth and oral hygiene check", "Tailored preventive treatments such as fluoride or sealants", "Personalized advice for parents"],
+        "faq": [
+          {"q": "When should I bring my child for the first time?", "a": "Around the age of three is ideal, or earlier if you notice anything unusual. The first visit is mostly about making the child comfortable."},
+          {"q": "Do milk teeth really need to be treated?", "a": "Yes. Untreated cavities in milk teeth can cause pain, infection and problems for the permanent teeth that follow them."},
+          {"q": "Can you handle children who are afraid?", "a": "Yes. Our pediatric team uses positive reinforcement, tell-show-do techniques and patient pacing to gradually build trust."},
+          {"q": "When is the first orthodontic visit recommended?", "a": "Around the age of seven, to assess facial growth and intercept issues that are easier to treat early."}
+        ]
+      },
+      "it": {
+        "name": "Odontoiatria pediatrica",
+        "tagline": "Un'odontoiatria delicata e accogliente, pensata per bambini e adolescenti.",
+        "description_short": "Cure specialistiche per i denti da latte e per la bocca in crescita, con un'attenzione speciale a prevenzione, educazione e all'esperienza positiva del bambino.",
+        "description_long": "L'odontoiatria pediatrica si occupa dei bambini dal primo dente fino all'adolescenza. La bocca di un bambino in crescita ha esigenze molto diverse da quella di un adulto: prevenzione delle carie, monitoraggio dei denti da latte, controllo della dentizione permanente e individuazione precoce di problemi ortodontici.\n\nLa prima visita è consigliata intorno ai tre anni, anche quando non si sospetta alcun problema. È un appuntamento breve e giocoso che permette al bambino di familiarizzare con l'ambiente, consente un'osservazione delicata e dà ai genitori consigli pratici su spazzolamento, fluoro e alimentazione.\n\nI trattamenti più frequenti includono applicazioni di fluoro, sigillature dei solchi sui molari permanenti, piccole otturazioni in composito e gestione dei traumi dentali dopo una caduta. Ogni procedura viene adattata all'età del piccolo paziente con un linguaggio semplice, pause frequenti e un'attenzione costante alla costruzione della fiducia.\n\nIn DentalIA il team pediatrico è selezionato sia per le competenze cliniche sia per la capacità di creare un'atmosfera serena. L'obiettivo è che i bambini crescano vedendo il dentista come una figura amica, non come una fonte di ansia.",
+        "who_for": ["Bambini dai 3 anni", "Adolescenti", "Bambini con le prime carie", "Bambini che necessitano di controlli ortodontici"],
+        "benefits": ["Prevenzione precoce delle carie", "Esperienza delicata e a misura di bambino", "Monitoraggio dello sviluppo dentale", "Relazione positiva di lungo periodo con il dentista"],
+        "process_steps": ["Prima visita dedicata alla familiarizzazione", "Esame dei denti e controllo dell'igiene", "Trattamenti preventivi mirati come fluoro o sigillature", "Consigli personalizzati per i genitori"],
+        "faq": [
+          {"q": "A che età portare il bambino la prima volta?", "a": "Intorno ai tre anni è ideale, anche prima se notate qualcosa di anomalo. La prima visita serve soprattutto a metterlo a suo agio."},
+          {"q": "I denti da latte vanno davvero curati?", "a": "Sì. Le carie sui denti da latte non trattate possono causare dolore, infezioni e problemi anche per i denti permanenti che seguiranno."},
+          {"q": "Sapete gestire i bambini che hanno paura?", "a": "Sì. Il nostro team pediatrico utilizza rinforzo positivo, tecniche tell-show-do e tempi adeguati per costruire gradualmente la fiducia."},
+          {"q": "Quando fare la prima visita ortodontica?", "a": "Intorno ai sette anni, per valutare la crescita del viso e intercettare problemi più facili da trattare precocemente."}
+        ]
+      },
+      "es": {
+        "name": "Odontopediatría",
+        "tagline": "Una odontología delicada y acogedora, pensada para niños y adolescentes.",
+        "description_short": "Cuidado especializado para los dientes de leche y la boca en crecimiento, con atención especial a la prevención, la educación y una experiencia positiva.",
+        "description_long": "La odontopediatría se ocupa de los niños desde el primer diente hasta la adolescencia. La boca de un niño en crecimiento tiene necesidades muy distintas a la de un adulto: prevención de caries, seguimiento de los dientes de leche, control de la dentición permanente e identificación precoz de problemas ortodóncicos.\n\nLa primera visita se recomienda alrededor de los tres años, incluso cuando no se sospecha ningún problema. Es una cita breve y lúdica que permite al niño familiarizarse con el entorno, hace posible una observación delicada y ofrece a los padres consejos prácticos sobre cepillado, flúor y alimentación.\n\nLos tratamientos más frecuentes incluyen aplicaciones de flúor, selladores de fosas y fisuras en los molares permanentes, pequeñas obturaciones de composite y gestión de traumatismos dentales tras una caída. Cada procedimiento se adapta a la edad del paciente con lenguaje sencillo, pausas frecuentes y un foco constante en construir confianza.\n\nEn DentalIA seleccionamos el equipo de odontopediatría tanto por sus competencias clínicas como por su capacidad de crear un ambiente sereno. El objetivo es que los niños crezcan viendo al dentista como una figura amiga, no como una fuente de ansiedad.",
+        "who_for": ["Niños desde los 3 años", "Adolescentes", "Niños con sus primeras caries", "Niños que necesitan controles ortodóncicos"],
+        "benefits": ["Prevención precoz de caries", "Experiencia amable y adaptada al niño", "Seguimiento del desarrollo dental", "Relación positiva a largo plazo con la odontología"],
+        "process_steps": ["Primera visita dedicada a la familiarización", "Examen de los dientes y revisión de la higiene", "Tratamientos preventivos como flúor o selladores", "Consejos personalizados para los padres"],
+        "faq": [
+          {"q": "¿A qué edad llevar al niño por primera vez?", "a": "Alrededor de los tres años es ideal, o antes si notáis algo extraño. La primera visita sirve sobre todo para que se sienta a gusto."},
+          {"q": "¿Hay que tratar los dientes de leche?", "a": "Sí. Las caries en los dientes de leche no tratadas pueden causar dolor, infecciones y problemas para los dientes permanentes que vendrán después."},
+          {"q": "¿Sabéis gestionar niños con miedo?", "a": "Sí. Nuestro equipo de odontopediatría utiliza refuerzo positivo, técnicas tell-show-do y tiempos adaptados para construir confianza poco a poco."},
+          {"q": "¿Cuándo conviene la primera visita ortodóncica?", "a": "Alrededor de los siete años, para valorar el crecimiento facial e interceptar problemas más fáciles de tratar de forma temprana."}
+        ]
+      }
+    }
+  }
+]

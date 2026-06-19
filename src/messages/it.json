@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "DentalIA — Sorridi, con la cura dell'AI.",
+    "description": "Cliniche dentali boutique a Roma, Palma de Mallorca e Londra — con un'assistente AI che prenota l'appuntamento nella tua lingua."
+  },
+  "nav": {
+    "services": "Prestazioni",
+    "clinics": "Cliniche",
+    "team": "Team",
+    "contact": "Contatti",
+    "switchLocale": "Lingua"
+  },
+  "home": {
+    "heroEyebrow": "Cura dentale · Powered by AI",
+    "heroTitle": "Sorridi, con la cura dell'AI.",
+    "heroSubtitle": "Tre cliniche boutique a Roma, Palma e Londra. Dodici prestazioni standard. Un'assistente AI — Sofia — che risponde alle tue domande e prenota l'appuntamento nella tua lingua, a qualsiasi ora.",
+    "heroPrimaryCta": "Esplora le prestazioni",
+    "heroSecondaryCta": "Prenota una visita"
+  },
+  "footer": {
+    "tagline": "Sorridi, con la cura dell'AI.",
+    "navHeading": "Esplora",
+    "legalHeading": "Legale",
+    "legalImprint": "Note legali",
+    "legalPrivacy": "Privacy",
+    "legalTerms": "Termini",
+    "credit": "Una vetrina di Follow The Flow AI.",
+    "creditLinkLabel": "Scopri la tecnologia"
+  }
+}

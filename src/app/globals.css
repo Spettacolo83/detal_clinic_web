@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette — Clean Medical Modern */
+  --color-canvas: #f7fafc;
+  --color-surface: #ffffff;
+  --color-ink: #0f172a;
+  --color-muted: #64748b;
+  --color-hairline: #e2e8f0;
+
+  --color-primary: #0d9488;
+  --color-primary-light: #5eead4;
+  --color-primary-dark: #0f766e;
+
+  --color-accent: #fb7185;
+  --color-accent-dark: #e11d48;
+
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+
+  --font-display: var(--font-jakarta), "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  --spacing-section: 5rem;
+  --spacing-section-lg: 7rem;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+  }
+  ::selection {
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+  }
+}

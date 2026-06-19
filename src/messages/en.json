@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "DentalIA — Smile, intelligently cared for.",
+    "description": "Boutique dental clinics in Rome, Palma de Mallorca, and London — with an AI assistant that books your appointment in any language."
+  },
+  "nav": {
+    "services": "Services",
+    "clinics": "Clinics",
+    "team": "Team",
+    "contact": "Contact",
+    "switchLocale": "Language"
+  },
+  "home": {
+    "heroEyebrow": "Dental care · Powered by AI",
+    "heroTitle": "Smile, intelligently cared for.",
+    "heroSubtitle": "Three boutique clinics in Rome, Palma, and London. Twelve standard services. One AI assistant — Sofia — that answers your questions and books your appointment in your language, any time.",
+    "heroPrimaryCta": "Browse services",
+    "heroSecondaryCta": "Book a visit"
+  },
+  "footer": {
+    "tagline": "Smile, intelligently cared for.",
+    "navHeading": "Browse",
+    "legalHeading": "Legal",
+    "legalImprint": "Imprint",
+    "legalPrivacy": "Privacy",
+    "legalTerms": "Terms",
+    "credit": "A Follow The Flow AI showcase.",
+    "creditLinkLabel": "Discover the technology"
+  }
+}
