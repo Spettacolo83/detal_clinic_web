@@ -4,9 +4,9 @@ import Script from "next/script";
 import { useLocale } from "next-intl";
 
 const AGENT_IDS: Record<string, string> = {
-  it: "AGENT_ID_PLACEHOLDER_IT",
-  es: "AGENT_ID_PLACEHOLDER_ES",
-  en: "AGENT_ID_PLACEHOLDER_EN",
+  it: "agent_1601kvghw00cebza3kbrm3843mgr",
+  es: "agent_8301kvghw1btfbg8bp2ysv0e8j2j",
+  en: "agent_6701kvghw2vrejytxnmz0gr4pkqd",
 };
 
 const TIMEZONE_BY_LOCALE: Record<string, string> = {

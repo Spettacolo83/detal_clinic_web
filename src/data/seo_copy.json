@@ -1,0 +1,133 @@
+{
+  "i18n": {
+    "en": {
+      "meta": {
+        "title": "DentalIA — Boutique Dental Care, Powered by AI",
+        "description": "DentalIA: three boutique dental clinics in Roma, Palma de Mallorca and London. 12 specialties, an AI concierge always available, transparent pricing."
+      },
+      "hero_eyebrow": "Dental care · Powered by AI",
+      "hero_title": "Smile naturally. AI concierge.",
+      "hero_subtitle": "Three boutique clinics, twelve specialties and Sofia, our AI assistant, ready to answer questions and book your visit at any time.",
+      "hero_primary_cta": "Browse services",
+      "hero_secondary_cta": "Book a visit",
+      "value_props": [
+        {
+          "title": "AI assistant always available",
+          "body": "Sofia answers questions about treatments, prices and slots in real time, in your language, 24 hours a day."
+        },
+        {
+          "title": "Three boutique clinics: Roma, Palma, London",
+          "body": "Premium spaces designed to feel calm and welcoming, with the same standards of care in every city."
+        },
+        {
+          "title": "Multilingual care team",
+          "body": "Our clinicians and front-desk teams speak Italian, Spanish and English, so you can be heard exactly the way you want."
+        },
+        {
+          "title": "Transparent pricing on request",
+          "body": "A clear written quote before any treatment, with no surprises and the option to discuss payment plans."
+        }
+      ],
+      "team_eyebrow": "Our team",
+      "team_title": "Specialists who listen first, then treat.",
+      "team_body": "Implantologists, orthodontists, periodontists, hygienists and a dedicated pediatric team. Eleven professionals across three cities, sharing the same protocols and the same care philosophy.",
+      "clinics_eyebrow": "Our clinics",
+      "clinics_title": "Three cities, one DentalIA experience.",
+      "clinics_body": "From Prati in Rome to Santa Catalina in Palma and Marylebone in London, every clinic is a renovated heritage building reimagined as a calm, welcoming space.",
+      "concierge_eyebrow": "AI concierge",
+      "concierge_title": "Meet Sofia, your dental concierge.",
+      "concierge_body": "Sofia is the voice assistant of DentalIA. She speaks Italian, Spanish and English, knows our twelve services and our three clinics in detail, and can check live availability and book your visit in a few seconds. Ask her anything, anytime, without filling forms.",
+      "concierge_cta": "Talk to Sofia",
+      "footer": {
+        "tagline": "DentalIA — Boutique dental care, powered by AI.",
+        "legal_note": "DentalIA is a demonstration brand created by Follow The Flow AI to showcase AI automation for dental clinics. All clinics, treatments and team members shown on this site are fictitious and for illustrative purposes only."
+      }
+    },
+    "it": {
+      "meta": {
+        "title": "DentalIA — Odontoiatria boutique, guidata dall'AI",
+        "description": "DentalIA: tre cliniche dentali boutique a Roma, Palma de Mallorca e Londra. 12 specialità, una concierge AI sempre disponibile, prezzi trasparenti."
+      },
+      "hero_eyebrow": "Odontoiatria · Guidata dall'AI",
+      "hero_title": "Sorridi al naturale. Concierge AI.",
+      "hero_subtitle": "Tre cliniche boutique, dodici specialità e Sofia, la nostra assistente AI, pronta a rispondere alle tue domande e a prenotare la tua visita in qualsiasi momento.",
+      "hero_primary_cta": "Esplora i servizi",
+      "hero_secondary_cta": "Prenota una visita",
+      "value_props": [
+        {
+          "title": "Assistente AI sempre disponibile",
+          "body": "Sofia risponde su trattamenti, prezzi e disponibilità in tempo reale, nella tua lingua, 24 ore al giorno."
+        },
+        {
+          "title": "Tre cliniche boutique: Roma, Palma, Londra",
+          "body": "Spazi premium pensati per essere sereni e accoglienti, con gli stessi standard di cura in ogni città."
+        },
+        {
+          "title": "Team multilingue",
+          "body": "Clinici e personale di accoglienza parlano italiano, spagnolo e inglese, per farti sentire a tuo agio come a casa."
+        },
+        {
+          "title": "Prezzi trasparenti su richiesta",
+          "body": "Preventivo scritto e chiaro prima di ogni trattamento, senza sorprese e con la possibilità di valutare piani di pagamento."
+        }
+      ],
+      "team_eyebrow": "Il team",
+      "team_title": "Specialisti che prima ascoltano, poi curano.",
+      "team_body": "Implantologi, ortodontisti, parodontologi, igienisti e un team pediatrico dedicato. Undici professionisti in tre città, con gli stessi protocolli e la stessa filosofia di cura.",
+      "clinics_eyebrow": "Le cliniche",
+      "clinics_title": "Tre città, un'unica esperienza DentalIA.",
+      "clinics_body": "Da Prati a Roma, Santa Catalina a Palma e Marylebone a Londra, ogni clinica è un edificio storico ristrutturato e ripensato come uno spazio sereno e accogliente.",
+      "concierge_eyebrow": "Concierge AI",
+      "concierge_title": "Ti presentiamo Sofia, la tua dental concierge.",
+      "concierge_body": "Sofia è l'assistente vocale di DentalIA. Parla italiano, spagnolo e inglese, conosce nel dettaglio i dodici servizi e le tre cliniche, e può verificare la disponibilità in tempo reale e prenotare la tua visita in pochi secondi. Chiedile quello che vuoi, quando vuoi, senza compilare moduli.",
+      "concierge_cta": "Parla con Sofia",
+      "footer": {
+        "tagline": "DentalIA — Odontoiatria boutique, guidata dall'AI.",
+        "legal_note": "DentalIA è un brand dimostrativo creato da Follow The Flow AI per mostrare le potenzialità dell'automazione AI per le cliniche dentali. Cliniche, trattamenti e membri del team mostrati nel sito sono fittizi e a solo scopo illustrativo."
+      }
+    },
+    "es": {
+      "meta": {
+        "title": "DentalIA — Odontología boutique, impulsada por IA",
+        "description": "DentalIA: tres clínicas dentales boutique en Roma, Palma de Mallorca y Londres. 12 especialidades, un concierge de IA siempre disponible, precios transparentes."
+      },
+      "hero_eyebrow": "Odontología · Impulsada por IA",
+      "hero_title": "Sonríe con naturalidad. Concierge IA.",
+      "hero_subtitle": "Tres clínicas boutique, doce especialidades y Sofía, nuestra asistente de IA, lista para responder tus preguntas y reservar tu cita en cualquier momento.",
+      "hero_primary_cta": "Explora los servicios",
+      "hero_secondary_cta": "Reserva una cita",
+      "value_props": [
+        {
+          "title": "Asistente IA siempre disponible",
+          "body": "Sofía responde sobre tratamientos, precios y disponibilidad en tiempo real, en tu idioma, 24 horas al día."
+        },
+        {
+          "title": "Tres clínicas boutique: Roma, Palma, Londres",
+          "body": "Espacios premium pensados para resultar serenos y acogedores, con los mismos estándares de cuidado en cada ciudad."
+        },
+        {
+          "title": "Equipo multilingüe",
+          "body": "Nuestros clínicos y personal de recepción hablan italiano, español e inglés, para que te sientas escuchado en tu idioma."
+        },
+        {
+          "title": "Precios transparentes bajo petición",
+          "body": "Un presupuesto claro y por escrito antes de cualquier tratamiento, sin sorpresas y con la opción de comentar planes de pago."
+        }
+      ],
+      "team_eyebrow": "Nuestro equipo",
+      "team_title": "Especialistas que primero escuchan, luego tratan.",
+      "team_body": "Implantólogos, ortodoncistas, periodoncistas, higienistas y un equipo pediátrico dedicado. Once profesionales en tres ciudades, con los mismos protocolos y la misma filosofía de cuidado.",
+      "clinics_eyebrow": "Nuestras clínicas",
+      "clinics_title": "Tres ciudades, una sola experiencia DentalIA.",
+      "clinics_body": "Desde Prati en Roma hasta Santa Catalina en Palma y Marylebone en Londres, cada clínica es un edificio histórico rehabilitado y repensado como un espacio sereno y acogedor.",
+      "concierge_eyebrow": "Concierge IA",
+      "concierge_title": "Te presentamos a Sofía, tu dental concierge.",
+      "concierge_body": "Sofía es la asistente vocal de DentalIA. Habla italiano, español e inglés, conoce al detalle los doce servicios y las tres clínicas, y puede comprobar la disponibilidad en tiempo real y reservar tu cita en pocos segundos. Pregúntale lo que quieras, cuando quieras, sin rellenar formularios.",
+      "concierge_cta": "Habla con Sofía",
+      "footer": {
+        "tagline": "DentalIA — Odontología boutique, impulsada por IA.",
+        "legal_note": "DentalIA es una marca de demostración creada por Follow The Flow AI para mostrar el potencial de la automatización con IA en clínicas dentales. Las clínicas, los tratamientos y los miembros del equipo que aparecen en el sitio son ficticios y tienen únicamente fines ilustrativos."
+      }
+    }
+  }
+}

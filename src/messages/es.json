@@ -1,8 +1,4 @@
 {
-  "meta": {
-    "title": "DentalIA — Sonríe, con el cuidado de la IA.",
-    "description": "Clínicas dentales boutique en Roma, Palma de Mallorca y Londres — con una asistente IA que agenda tu cita en tu idioma."
-  },
   "nav": {
     "services": "Servicios",
     "clinics": "Clínicas",
@@ -10,21 +6,144 @@
     "contact": "Contacto",
     "switchLocale": "Idioma"
   },
+  "services": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Doce especialidades, una sola filosofía de cuidado.",
+    "subtitle": "Desde la revisión preventiva hasta la implantología avanzada, cada tratamiento se realiza con los mismos estándares boutique en las tres clínicas.",
+    "categoryFilter": "Todas las categorías",
+    "cat_preventiva": "Preventiva",
+    "cat_conservativa": "Conservadora",
+    "cat_estetica": "Estética",
+    "cat_ortodonzia": "Ortodoncia",
+    "cat_chirurgia": "Cirugía",
+    "cat_pediatrica": "Pediátrica",
+    "flagshipLabel": "Destacado",
+    "priceFromLabel": "Desde",
+    "priceToLabel": "a",
+    "durationLabel": "Sesión",
+    "sessionsLabel": "Sesiones típicas",
+    "benefitsHeading": "Por qué elegir este tratamiento",
+    "whoForHeading": "Para quién es",
+    "processHeading": "Cómo se realiza",
+    "faqHeading": "Preguntas frecuentes",
+    "bookCta": "Reservar esta cita",
+    "askHint": "O abre Sofia abajo a la derecha para preguntar cualquier cosa sobre este tratamiento."
+  },
+  "clinics": {
+    "eyebrow": "Nuestras clínicas",
+    "title": "Tres ciudades, una única experiencia DentalIA.",
+    "hoursHeading": "Horario de apertura",
+    "addressHeading": "Dirección",
+    "phoneHeading": "Teléfono",
+    "emailHeading": "Email",
+    "accessHeading": "Cómo llegar",
+    "teamHeading": "Equipo en sede",
+    "directorLabel": "Director clínico",
+    "servicesHeading": "Servicios disponibles",
+    "mondayShort": "Lun",
+    "tuesdayShort": "Mar",
+    "wednesdayShort": "Mié",
+    "thursdayShort": "Jue",
+    "fridayShort": "Vie",
+    "saturdayShort": "Sáb",
+    "sundayShort": "Dom",
+    "closedLabel": "Cerrado",
+    "openCloseSep": "-",
+    "parkingLabel": "Aparcamiento",
+    "transportLabel": "Transporte público",
+    "directionsCta": "Abrir en Mapas",
+    "bookCta": "Reservar en esta clínica"
+  },
+  "team": {
+    "eyebrow": "Nuestros especialistas",
+    "title": "Especialistas que primero escuchan.",
+    "subtitle": "Once profesionales entre Roma, Palma y Londres — mismos protocolos, misma filosofía de cuidado.",
+    "yearsLabel": "años de experiencia",
+    "specialtiesLabel": "Especialidades",
+    "clinicLabel": "Sede"
+  },
+  "contact": {
+    "eyebrow": "Contáctanos",
+    "title": "Habla con nuestro equipo.",
+    "body": "Puedes contactarnos por teléfono, email o directamente a través de Sofia, nuestra asistente AI.",
+    "emailLabel": "Email general",
+    "phoneLabel": "Recepción",
+    "hoursLabel": "Horario recepción",
+    "emailGeneral": "hello@dentalia.com"
+  },
+  "comingSoon": {
+    "badge": "Próximamente",
+    "ctaHome": "Volver al inicio"
+  },
+  "imprint": {
+    "eyebrow": "Legal",
+    "title": "Aviso legal",
+    "body": "DentalIA es una marca demostrativa operada por Follow The Flow AI LLC, sociedad estadounidense de Delaware. Las clínicas, tratamientos y perfiles del equipo mostrados son ficticios y existen únicamente para ilustrar las capacidades de automatización AI."
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Política de privacidad",
+    "body": "Al tratarse de una demo pública, DentalIA no recopila, almacena ni comparte datos reales de los visitantes. La política de privacidad completa se publicará en caso de lanzamiento en producción por parte de una clínica dental real que adopte esta plataforma."
+  },
+  "terms": {
+    "eyebrow": "Legal",
+    "title": "Términos de uso",
+    "body": "Todos los servicios, clínicas y miembros del equipo presentes en el sitio son demostrativos y no corresponden a prestadores médicos reales. No se ofrece ningún servicio sanitario real. Los términos completos acompañarán cualquier puesta en producción."
+  },
   "home": {
-    "heroEyebrow": "Cuidado dental · Powered by AI",
-    "heroTitle": "Sonríe, con el cuidado de la IA.",
-    "heroSubtitle": "Tres clínicas boutique en Roma, Palma y Londres. Doce servicios estándar. Una asistente IA — Sofia — que responde a tus preguntas y reserva tu cita en tu idioma, a cualquier hora.",
+    "heroEyebrow": "Odontología · Impulsada por IA",
+    "heroTitle": "Sonríe con naturalidad. Concierge IA.",
+    "heroSubtitle": "Tres clínicas boutique, doce especialidades y Sofía, nuestra asistente de IA, lista para responder tus preguntas y reservar tu cita en cualquier momento.",
     "heroPrimaryCta": "Explora los servicios",
-    "heroSecondaryCta": "Reserva una cita"
+    "heroSecondaryCta": "Reserva una cita",
+    "valuePropsEyebrow": "Por qué DentalIA",
+    "valuePropsTitle": "Cuidado boutique, servicio inteligente.",
+    "servicesEyebrow": "Servicios",
+    "servicesTitle": "Doce tratamientos, una filosofía.",
+    "servicesBody": "Explora el catálogo completo o pregunta a Sofia para recomendaciones personalizadas.",
+    "servicesCta": "Ver todos los servicios",
+    "clinicsEyebrow": "Nuestras clínicas",
+    "clinicsTitle": "Tres ciudades, una sola experiencia DentalIA.",
+    "clinicsBody": "Desde Prati en Roma hasta Santa Catalina en Palma y Marylebone en Londres, cada clínica es un edificio histórico rehabilitado y repensado como un espacio sereno y acogedor.",
+    "teamEyebrow": "Nuestro equipo",
+    "teamTitle": "Especialistas que primero escuchan, luego tratan.",
+    "teamBody": "Implantólogos, ortodoncistas, periodoncistas, higienistas y un equipo pediátrico dedicado. Once profesionales en tres ciudades, con los mismos protocolos y la misma filosofía de cuidado.",
+    "conciergeEyebrow": "Concierge IA",
+    "conciergeTitle": "Te presentamos a Sofía, tu dental concierge.",
+    "conciergeBody": "Sofía es la asistente vocal de DentalIA. Habla italiano, español e inglés, conoce al detalle los doce servicios y las tres clínicas, y puede comprobar la disponibilidad en tiempo real y reservar tu cita en pocos segundos. Pregúntale lo que quieras, cuando quieras, sin rellenar formularios.",
+    "conciergeCta": "Habla con Sofía",
+    "valueProps": [
+      {
+        "title": "Asistente IA siempre disponible",
+        "body": "Sofía responde sobre tratamientos, precios y disponibilidad en tiempo real, en tu idioma, 24 horas al día."
+      },
+      {
+        "title": "Tres clínicas boutique: Roma, Palma, Londres",
+        "body": "Espacios premium pensados para resultar serenos y acogedores, con los mismos estándares de cuidado en cada ciudad."
+      },
+      {
+        "title": "Equipo multilingüe",
+        "body": "Nuestros clínicos y personal de recepción hablan italiano, español e inglés, para que te sientas escuchado en tu idioma."
+      },
+      {
+        "title": "Precios transparentes bajo petición",
+        "body": "Un presupuesto claro y por escrito antes de cualquier tratamiento, sin sorpresas y con la opción de comentar planes de pago."
+      }
+    ]
+  },
+  "meta": {
+    "title": "DentalIA — Odontología boutique, impulsada por IA",
+    "description": "DentalIA: tres clínicas dentales boutique en Roma, Palma de Mallorca y Londres. 12 especialidades, un concierge de IA siempre disponible, precios transparentes."
   },
   "footer": {
-    "tagline": "Sonríe, con el cuidado de la IA.",
+    "tagline": "DentalIA — Odontología boutique, impulsada por IA.",
     "navHeading": "Explora",
     "legalHeading": "Legal",
     "legalImprint": "Aviso legal",
     "legalPrivacy": "Privacidad",
     "legalTerms": "Términos",
     "credit": "Un escaparate de Follow The Flow AI.",
-    "creditLinkLabel": "Descubre la tecnología"
+    "creditLinkLabel": "Descubre la tecnología",
+    "legalNote": "DentalIA es una marca de demostración creada por Follow The Flow AI para mostrar el potencial de la automatización con IA en clínicas dentales. Las clínicas, los tratamientos y los miembros del equipo que aparecen en el sitio son ficticios y tienen únicamente fines ilustrativos."
   }
 }

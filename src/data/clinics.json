@@ -1,0 +1,170 @@
+[
+  {
+    "id_suggested": "roma",
+    "city": "Roma",
+    "address_full": "Via Cola di Rienzo 200, 00192 Roma RM",
+    "coordinates": {"lat": 41.9075, "lng": 12.4640},
+    "phone": "+39 06 4577 8120",
+    "email": "roma@dentalia.com",
+    "opening_hours": [
+      {"day": "monday", "open": "09:00", "close": "19:30"},
+      {"day": "tuesday", "open": "09:00", "close": "19:30"},
+      {"day": "wednesday", "open": "09:00", "close": "19:30"},
+      {"day": "thursday", "open": "09:00", "close": "19:30"},
+      {"day": "friday", "open": "09:00", "close": "19:30"},
+      {"day": "saturday", "open": "09:00", "close": "13:00"},
+      {"day": "sunday", "closed": true}
+    ],
+    "parking": "Parcheggio convenzionato in Via Vittoria Colonna a 200 metri, oltre a parcheggi a strisce blu lungo Via Cola di Rienzo.",
+    "public_transport": "Metro A fermata Lepanto a 350 metri. Numerose linee bus (492, 70, 81) lungo Piazza Risorgimento.",
+    "services_offered": [
+      "visita-di-controllo",
+      "igiene-dentale-professionale",
+      "implantologia",
+      "ortodonzia-fissa",
+      "ortodonzia-invisalign",
+      "sbiancamento-professionale",
+      "faccette-dentali",
+      "endodonzia",
+      "otturazioni-estetiche",
+      "protesi-dentale",
+      "parodontologia",
+      "odontoiatria-pediatrica"
+    ],
+    "flagship_services": ["implantologia", "ortodonzia-invisalign", "faccette-dentali"],
+    "dr_lead_name": "Dr. Marco Rinaldi",
+    "dr_lead_credentials": "Direttore sanitario, specialista in implantologia avanzata, 22 anni di esperienza.",
+    "i18n": {
+      "en": {
+        "name": "DentalIA Roma — Prati flagship clinic",
+        "neighborhood_description": "In the elegant Prati district, a few minutes from Vatican City and Castel Sant'Angelo. A residential and commercial neighborhood, easily reachable by metro and bus.",
+        "clinic_intro": "Our Roma clinic is the historical headquarters of DentalIA, opened in 2019 in a refined liberty building on Via Cola di Rienzo. It hosts five operating rooms, a dedicated surgical suite for advanced implantology and an in-house digital scanning workflow.\n\nThe atmosphere is calm and Mediterranean, with natural light, warm woods and soft acoustics. Every detail of the patient journey, from the welcome at the front desk to the post-treatment follow-up, is designed to feel familiar rather than clinical.\n\nThe team of fifteen professionals covers every dental discipline, with three internal specialists in implantology, two orthodontists certified in Invisalign and a pediatric corner with a dedicated waiting area for children.\n\nClinic flagship areas are advanced implantology, including full-arch rehabilitations, invisible orthodontics for adults and aesthetic smile design with porcelain veneers crafted with our partner ceramists.\n\nRoma also acts as the training hub for our other clinics, hosting clinical meetings and continuing education for the entire DentalIA team.",
+        "team_intro_short": "Fifteen clinicians, hygienists and front-desk professionals, led by Dr. Marco Rinaldi, work together with a single mission: making advanced dentistry feel comfortable and personal."
+      },
+      "it": {
+        "name": "DentalIA Roma — Sede storica nel quartiere Prati",
+        "neighborhood_description": "Nell'elegante quartiere Prati, a pochi minuti da Città del Vaticano e Castel Sant'Angelo. Una zona residenziale e commerciale, facilmente raggiungibile con metro e autobus.",
+        "clinic_intro": "La nostra sede di Roma è la sede storica di DentalIA, aperta nel 2019 in un raffinato palazzo liberty di Via Cola di Rienzo. Ospita cinque sale operative, un blocco chirurgico dedicato all'implantologia avanzata e un flusso di lavoro digitale integrato.\n\nL'atmosfera è serena e mediterranea, con luce naturale, legni caldi e un'acustica avvolgente. Ogni dettaglio del percorso del paziente, dall'accoglienza al follow-up post-trattamento, è pensato per sembrare familiare e non clinico.\n\nIl team di quindici professionisti copre tutte le discipline odontoiatriche, con tre specialisti interni in implantologia, due ortodontisti certificati Invisalign e un angolo pediatrico con sala d'attesa dedicata ai più piccoli.\n\nLe aree di eccellenza della clinica sono l'implantologia avanzata, incluse le riabilitazioni full-arch, l'ortodonzia invisibile per adulti e l'estetica del sorriso con faccette in ceramica realizzate dai nostri ceramisti partner.\n\nRoma è anche il polo di formazione per le altre sedi, e ospita gli incontri clinici e i percorsi di aggiornamento di tutto il team DentalIA.",
+        "team_intro_short": "Quindici tra clinici, igienisti e personale di accoglienza, guidati dal Dr. Marco Rinaldi, lavorano con un'unica missione: rendere l'odontoiatria avanzata confortevole e personale."
+      },
+      "es": {
+        "name": "DentalIA Roma — Clínica histórica en el barrio Prati",
+        "neighborhood_description": "En el elegante barrio Prati, a pocos minutos de la Ciudad del Vaticano y de Castel Sant'Angelo. Una zona residencial y comercial, muy bien comunicada por metro y autobús.",
+        "clinic_intro": "Nuestra sede de Roma es la clínica histórica de DentalIA, inaugurada en 2019 en un refinado edificio modernista de Via Cola di Rienzo. Cuenta con cinco salas de tratamiento, un bloque quirúrgico dedicado a la implantología avanzada y un flujo de trabajo digital integrado.\n\nEl ambiente es sereno y mediterráneo, con luz natural, maderas cálidas y una acústica envolvente. Cada detalle del recorrido del paciente, desde la bienvenida hasta el seguimiento, está pensado para resultar familiar y no clínico.\n\nEl equipo de quince profesionales cubre todas las disciplinas odontológicas, con tres especialistas internos en implantología, dos ortodoncistas certificados en Invisalign y un rincón pediátrico con sala de espera para los más pequeños.\n\nLas áreas de excelencia de la clínica son la implantología avanzada, incluidas las rehabilitaciones full-arch, la ortodoncia invisible para adultos y la estética dental con carillas cerámicas elaboradas por nuestros ceramistas asociados.\n\nRoma es también el centro de formación de las demás sedes y acoge las reuniones clínicas y los programas de actualización de todo el equipo DentalIA.",
+        "team_intro_short": "Quince personas entre clínicos, higienistas y personal de recepción, dirigidos por el Dr. Marco Rinaldi, trabajan con una única misión: hacer que la odontología avanzada resulte cómoda y personal."
+      }
+    }
+  },
+  {
+    "id_suggested": "palma",
+    "city": "Palma de Mallorca",
+    "address_full": "Carrer de Sant Magí 30, 07013 Palma, Illes Balears",
+    "coordinates": {"lat": 39.5703, "lng": 2.6390},
+    "phone": "+34 971 45 82 30",
+    "email": "palma@dentalia.com",
+    "opening_hours": [
+      {"day": "monday", "open": "09:00", "close": "19:30"},
+      {"day": "tuesday", "open": "09:00", "close": "19:30"},
+      {"day": "wednesday", "open": "09:00", "close": "19:30"},
+      {"day": "thursday", "open": "09:00", "close": "19:30"},
+      {"day": "friday", "open": "09:00", "close": "19:30"},
+      {"day": "saturday", "open": "09:00", "close": "13:00"},
+      {"day": "sunday", "closed": true}
+    ],
+    "parking": "Parking público Plaça del Progrés a 250 metros. Aparcamiento en zona azul disponible en Carrer Sant Magí y calles adyacentes.",
+    "public_transport": "Líneas de autobús EMT 3, 20 y 46 con paradas a 150 metros. Estación de Plaça d'Espanya alcanzable en 10 minutos a pie.",
+    "services_offered": [
+      "visita-di-controllo",
+      "igiene-dentale-professionale",
+      "implantologia",
+      "ortodonzia-fissa",
+      "ortodonzia-invisalign",
+      "sbiancamento-professionale",
+      "faccette-dentali",
+      "endodonzia",
+      "otturazioni-estetiche",
+      "protesi-dentale",
+      "parodontologia",
+      "odontoiatria-pediatrica"
+    ],
+    "flagship_services": ["ortodonzia-invisalign", "sbiancamento-professionale", "odontoiatria-pediatrica"],
+    "dr_lead_name": "Dra. Elena Vidal Soler",
+    "dr_lead_credentials": "Directora clínica, especialista en ortodoncia y estética dental, 16 años de experiencia.",
+    "i18n": {
+      "en": {
+        "name": "DentalIA Palma — Santa Catalina clinic",
+        "neighborhood_description": "In the lively Santa Catalina district, a vibrant neighborhood of Palma known for its market, boutique cafes and Mediterranean rhythm. A few minutes from the cathedral and the old town.",
+        "clinic_intro": "DentalIA Palma opened in 2021 in a renovated traditional house in Santa Catalina, with four operating rooms designed around natural light and a quiet, family-friendly atmosphere.\n\nThe clinic was created for the residents of Palma and for the international community living year-round on the island. The reception team is fully trilingual in Spanish, Catalan and English, with German also available for our long-term residents.\n\nThe team of twelve includes one resident pediatric dentist, two orthodontists with experience in Invisalign and clear aligner systems, and a dedicated aesthetic dentistry team specialized in whitening and minimally invasive smile design.\n\nFlagship areas of the clinic are invisible orthodontics, professional whitening protocols adapted to the Mediterranean lifestyle, and a particularly strong pediatric program with playful, welcoming spaces.\n\nWe pay special attention to families, with flexible scheduling for working parents, joint appointments for siblings and a dedicated pediatric waiting area with books, games and a quiet corner.",
+        "team_intro_short": "Twelve clinicians, hygienists and reception staff, led by Dr. Elena Vidal Soler, with a trilingual approach and a special focus on families and the international community of Palma."
+      },
+      "it": {
+        "name": "DentalIA Palma — Clinica nel quartiere Santa Catalina",
+        "neighborhood_description": "Nel vivace quartiere di Santa Catalina, una zona di Palma conosciuta per il suo mercato, i caffè di quartiere e il ritmo mediterraneo. A pochi minuti dalla cattedrale e dal centro storico.",
+        "clinic_intro": "DentalIA Palma ha aperto nel 2021 in una casa tradizionale ristrutturata di Santa Catalina, con quattro sale operative pensate intorno alla luce naturale e a un'atmosfera tranquilla e familiare.\n\nLa clinica è nata per i residenti di Palma e per la comunità internazionale che vive sull'isola tutto l'anno. Il team di accoglienza è trilingue, in spagnolo, catalano e inglese, con il tedesco disponibile per i nostri pazienti di lunga residenza.\n\nIl team di dodici persone include un'odontoiatra pediatrica residente, due ortodontisti con esperienza in Invisalign e altri sistemi di allineatori, e un'equipe dedicata all'estetica specializzata in sbiancamento e smile design poco invasivo.\n\nLe aree di eccellenza sono l'ortodonzia invisibile, i protocolli di sbiancamento professionale adattati allo stile di vita mediterraneo e un programma pediatrico particolarmente curato, con spazi giocosi e accoglienti.\n\nDedichiamo un'attenzione particolare alle famiglie, con orari flessibili per i genitori che lavorano, appuntamenti contemporanei per fratelli e sorelle e un'area di attesa pediatrica con libri, giochi e un angolo silenzioso.",
+        "team_intro_short": "Dodici professionisti tra clinici, igienisti e personale di accoglienza, guidati dalla Dr.ssa Elena Vidal Soler, con un approccio trilingue e un'attenzione speciale alle famiglie e alla comunità internazionale di Palma."
+      },
+      "es": {
+        "name": "DentalIA Palma — Clínica en Santa Catalina",
+        "neighborhood_description": "En el animado barrio de Santa Catalina, una zona vibrante de Palma conocida por su mercado, sus cafés de barrio y su ritmo mediterráneo. A pocos minutos de la catedral y del casco antiguo.",
+        "clinic_intro": "DentalIA Palma abrió en 2021 en una casa tradicional rehabilitada de Santa Catalina, con cuatro salas de tratamiento diseñadas en torno a la luz natural y a un ambiente tranquilo y familiar.\n\nLa clínica nace para los residentes de Palma y para la comunidad internacional que vive en la isla durante todo el año. El equipo de recepción es trilingüe en español, catalán e inglés, con alemán disponible para nuestros pacientes residentes desde hace muchos años.\n\nEl equipo de doce personas incluye una odontopediatra residente, dos ortodoncistas con experiencia en Invisalign y otros sistemas de alineadores, y un grupo dedicado a la estética especializado en blanqueamiento y diseño de sonrisa mínimamente invasivo.\n\nLas áreas destacadas son la ortodoncia invisible, los protocolos de blanqueamiento profesional adaptados al estilo de vida mediterráneo y un programa de odontopediatría especialmente cuidado, con espacios lúdicos y acogedores.\n\nDedicamos una atención especial a las familias, con horarios flexibles para padres trabajadores, citas simultáneas para hermanos y un área de espera pediátrica con libros, juegos y un rincón tranquilo.",
+        "team_intro_short": "Doce profesionales entre clínicos, higienistas y personal de recepción, dirigidos por la Dra. Elena Vidal Soler, con un enfoque trilingüe y una atención especial a las familias y a la comunidad internacional de Palma."
+      }
+    }
+  },
+  {
+    "id_suggested": "london",
+    "city": "London",
+    "address_full": "32 Marylebone High Street, London W1U 4QA, United Kingdom",
+    "coordinates": {"lat": 51.5188, "lng": -0.1499},
+    "phone": "+44 20 7946 0218",
+    "email": "london@dentalia.com",
+    "opening_hours": [
+      {"day": "monday", "open": "09:00", "close": "19:30"},
+      {"day": "tuesday", "open": "09:00", "close": "19:30"},
+      {"day": "wednesday", "open": "09:00", "close": "19:30"},
+      {"day": "thursday", "open": "09:00", "close": "20:00"},
+      {"day": "friday", "open": "09:00", "close": "18:00"},
+      {"day": "saturday", "open": "09:00", "close": "13:00"},
+      {"day": "sunday", "closed": true}
+    ],
+    "parking": "Q-Park Marylebone car park 5 minutes' walk from the clinic. On-street pay-and-display parking subject to Westminster zones.",
+    "public_transport": "Baker Street station (Bakerloo, Jubilee, Circle, Hammersmith and Metropolitan lines) 6 minutes' walk. Bond Street station 10 minutes' walk. Bus routes 13, 74, 139 stop nearby.",
+    "services_offered": [
+      "visita-di-controllo",
+      "igiene-dentale-professionale",
+      "implantologia",
+      "ortodonzia-fissa",
+      "ortodonzia-invisalign",
+      "sbiancamento-professionale",
+      "faccette-dentali",
+      "endodonzia",
+      "otturazioni-estetiche",
+      "protesi-dentale",
+      "parodontologia",
+      "odontoiatria-pediatrica"
+    ],
+    "flagship_services": ["implantologia", "faccette-dentali", "ortodonzia-invisalign"],
+    "dr_lead_name": "Dr. James Whitfield",
+    "dr_lead_credentials": "Clinical Director, specialist in prosthodontics and aesthetic dentistry, 19 years of experience.",
+    "i18n": {
+      "en": {
+        "name": "DentalIA London — Marylebone clinic",
+        "neighborhood_description": "On Marylebone High Street, in one of the most refined neighborhoods of Central London. A few minutes from Regent's Park and Wigmore Street, easy to reach by underground from across the city.",
+        "clinic_intro": "DentalIA London opened in 2022 on Marylebone High Street, a few steps from Regent's Park. The clinic occupies a renovated Georgian townhouse on two floors, with six operating rooms and a dedicated implant surgery suite.\n\nThe interior design pairs warm woods, soft fabrics and a restrained palette to create a calm, almost residential feel. Patients are welcomed by a concierge desk rather than a clinical reception, and every appointment is allocated generous time to avoid the feeling of being rushed.\n\nThe team of seventeen includes specialists in prosthodontics, implant surgery, periodontology and a senior orthodontic team. Many clinicians have post-graduate training from leading institutions across the UK, Italy and Spain.\n\nOur London flagship is full-arch implant rehabilitation, advanced smile design with porcelain veneers crafted by our master ceramists, and invisible orthodontics for adults. Sedation options are available for patients who feel anxious about treatment.\n\nThe clinic is fully bilingual in English and Italian, with Spanish-speaking clinicians on the team. We are also a referral practice for several local dentists across Central London.",
+        "team_intro_short": "Seventeen clinicians, hygienists and concierge professionals, led by Dr. James Whitfield, deliver a calm, multilingual experience inspired by the best traditions of Central London hospitality."
+      },
+      "it": {
+        "name": "DentalIA London — Clinica di Marylebone",
+        "neighborhood_description": "In Marylebone High Street, in uno dei quartieri più raffinati del centro di Londra. A pochi minuti da Regent's Park e Wigmore Street, comodamente raggiungibile in metropolitana da tutta la città.",
+        "clinic_intro": "DentalIA London ha aperto nel 2022 in Marylebone High Street, a due passi da Regent's Park. La clinica occupa una townhouse georgiana ristrutturata su due piani, con sei sale operative e un blocco chirurgico dedicato agli impianti.\n\nGli interni combinano legni caldi, tessuti morbidi e una palette sobria per creare un'atmosfera serena, quasi residenziale. I pazienti sono accolti da un desk concierge più che da una reception clinica, e ogni appuntamento ha tempi generosi, per evitare la sensazione di essere di passaggio.\n\nIl team di diciassette persone include specialisti in protesi, chirurgia implantare, parodontologia e un'equipe ortodontica senior. Molti clinici hanno formazione post-laurea presso istituzioni di riferimento in Regno Unito, Italia e Spagna.\n\nLe aree di eccellenza della clinica londinese sono la riabilitazione implantare full-arch, lo smile design avanzato con faccette in ceramica realizzate dai nostri maestri ceramisti e l'ortodonzia invisibile per adulti. Su richiesta sono disponibili protocolli di sedazione per i pazienti con ansia.\n\nLa clinica è pienamente bilingue inglese-italiano, con clinici che parlano anche spagnolo. È inoltre clinica di riferimento per diversi dentisti del centro di Londra.",
+        "team_intro_short": "Diciassette professionisti tra clinici, igienisti e concierge, guidati dal Dr. James Whitfield, offrono un'esperienza serena e multilingue ispirata alle migliori tradizioni di ospitalità del centro di Londra."
+      },
+      "es": {
+        "name": "DentalIA London — Clínica de Marylebone",
+        "neighborhood_description": "En Marylebone High Street, en uno de los barrios más refinados del centro de Londres. A pocos minutos de Regent's Park y Wigmore Street, fácilmente accesible en metro desde toda la ciudad.",
+        "clinic_intro": "DentalIA London abrió en 2022 en Marylebone High Street, a pocos pasos de Regent's Park. La clínica ocupa una townhouse georgiana rehabilitada en dos plantas, con seis salas de tratamiento y un bloque quirúrgico dedicado a los implantes.\n\nEl diseño interior combina maderas cálidas, tejidos suaves y una paleta sobria para crear un ambiente sereno, casi residencial. Los pacientes son recibidos por un concierge más que por una recepción clínica, y cada cita tiene tiempos generosos para evitar la sensación de prisa.\n\nEl equipo de diecisiete personas incluye especialistas en prótesis, cirugía implantológica, periodoncia y un grupo senior de ortodoncia. Muchos clínicos cuentan con formación de posgrado en instituciones de referencia del Reino Unido, Italia y España.\n\nLas áreas destacadas de la clínica londinense son la rehabilitación implantológica full-arch, el diseño avanzado de sonrisa con carillas cerámicas elaboradas por nuestros maestros ceramistas y la ortodoncia invisible para adultos. Bajo solicitud están disponibles protocolos de sedación para pacientes con ansiedad.\n\nLa clínica es plenamente bilingüe inglés-italiano, con clínicos que también hablan español. Además, es clínica de referencia para varios odontólogos del centro de Londres.",
+        "team_intro_short": "Diecisiete profesionales entre clínicos, higienistas y concierge, dirigidos por el Dr. James Whitfield, ofrecen una experiencia serena y multilingüe inspirada en las mejores tradiciones de hospitalidad del centro de Londres."
+      }
+    }
+  }
+]

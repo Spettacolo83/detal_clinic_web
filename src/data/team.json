@@ -1,0 +1,211 @@
+[
+  {
+    "id_suggested": "marco-rinaldi",
+    "name": "Dr. Marco Rinaldi",
+    "clinic_id_suggested": "roma",
+    "role": "Direttore sanitario / Implantologo",
+    "years_experience": 22,
+    "specialties": ["Implantologia avanzata", "Riabilitazioni full-arch", "Chirurgia orale"],
+    "i18n": {
+      "en": {
+        "bio_short": "Clinical Director of DentalIA Roma, Dr. Rinaldi has dedicated his career to advanced implantology and full-arch rehabilitations. He completed his post-graduate training in Turin and Gothenburg, and lectures regularly at Italian implantology conferences."
+      },
+      "it": {
+        "bio_short": "Direttore sanitario di DentalIA Roma, il Dr. Rinaldi ha dedicato la sua carriera all'implantologia avanzata e alle riabilitazioni full-arch. Ha completato la formazione post-laurea a Torino e Göteborg e relaziona regolarmente ai congressi italiani di implantologia."
+      },
+      "es": {
+        "bio_short": "Director clínico de DentalIA Roma, el Dr. Rinaldi ha dedicado su carrera a la implantología avanzada y a las rehabilitaciones full-arch. Completó su formación de posgrado en Turín y Gotemburgo y participa regularmente como ponente en congresos italianos de implantología."
+      }
+    }
+  },
+  {
+    "id_suggested": "giulia-ferrari",
+    "name": "Dr.ssa Giulia Ferrari",
+    "clinic_id_suggested": "roma",
+    "role": "Ortodontista",
+    "years_experience": 12,
+    "specialties": ["Ortodonzia invisibile", "Invisalign", "Ortodonzia degli adulti"],
+    "i18n": {
+      "en": {
+        "bio_short": "Dr. Ferrari leads the orthodontic program at DentalIA Roma, with over a thousand treatments completed using Invisalign and other clear aligner systems. Her work combines digital planning with a careful focus on natural facial harmony."
+      },
+      "it": {
+        "bio_short": "La Dr.ssa Ferrari guida il programma ortodontico di DentalIA Roma, con oltre mille trattamenti completati con Invisalign e altri sistemi di allineatori trasparenti. Il suo lavoro unisce pianificazione digitale e una grande attenzione all'armonia naturale del viso."
+      },
+      "es": {
+        "bio_short": "La Dra. Ferrari lidera el programa de ortodoncia de DentalIA Roma, con más de mil tratamientos finalizados con Invisalign y otros sistemas de alineadores transparentes. Su trabajo combina la planificación digital con una atención cuidadosa a la armonía facial."
+      }
+    }
+  },
+  {
+    "id_suggested": "laura-bianchi",
+    "name": "Dr.ssa Laura Bianchi",
+    "clinic_id_suggested": "roma",
+    "role": "Endodontista / Conservativa",
+    "years_experience": 14,
+    "specialties": ["Endodonzia microscopica", "Restauri estetici", "Ritrattamenti"],
+    "i18n": {
+      "en": {
+        "bio_short": "Dr. Bianchi is the reference for endodontics at DentalIA Roma. Trained in microscopic endodontics, she handles the most complex root canal cases and aesthetic composite restorations across the clinic."
+      },
+      "it": {
+        "bio_short": "La Dr.ssa Bianchi è il riferimento per l'endodonzia di DentalIA Roma. Con formazione in endodonzia microscopica, segue i casi più complessi di devitalizzazione e i restauri estetici in composito della clinica."
+      },
+      "es": {
+        "bio_short": "La Dra. Bianchi es la referencia en endodoncia de DentalIA Roma. Con formación en endodoncia microscópica, lleva los casos más complejos de endodoncia y las restauraciones estéticas de composite de la clínica."
+      }
+    }
+  },
+  {
+    "id_suggested": "francesca-conti",
+    "name": "Francesca Conti",
+    "clinic_id_suggested": "roma",
+    "role": "Igienista dentale senior",
+    "years_experience": 10,
+    "specialties": ["Igiene professionale", "Educazione del paziente", "Mantenimento parodontale"],
+    "i18n": {
+      "en": {
+        "bio_short": "Francesca is the senior hygienist at DentalIA Roma, with a special interest in periodontal maintenance and patient education. She has trained the hygiene teams of all three clinics."
+      },
+      "it": {
+        "bio_short": "Francesca è l'igienista senior di DentalIA Roma, con un interesse particolare per il mantenimento parodontale e l'educazione del paziente. Ha formato il team igiene di tutte e tre le cliniche."
+      },
+      "es": {
+        "bio_short": "Francesca es la higienista sénior de DentalIA Roma, con especial interés en el mantenimiento periodontal y la educación del paciente. Ha formado a los equipos de higiene de las tres clínicas."
+      }
+    }
+  },
+  {
+    "id_suggested": "elena-vidal",
+    "name": "Dra. Elena Vidal Soler",
+    "clinic_id_suggested": "palma",
+    "role": "Directora clínica / Ortodoncista",
+    "years_experience": 16,
+    "specialties": ["Ortodoncia invisible", "Estética dental", "Diseño de sonrisa"],
+    "i18n": {
+      "en": {
+        "bio_short": "Clinical Director of DentalIA Palma, Dr. Vidal Soler combines a clinical background in orthodontics with a special interest in aesthetic dentistry. She is trilingual and runs the international patient program of the clinic."
+      },
+      "it": {
+        "bio_short": "Direttrice clinica di DentalIA Palma, la Dr.ssa Vidal Soler unisce una formazione clinica in ortodonzia a un interesse particolare per l'estetica dentale. Trilingue, coordina il programma per i pazienti internazionali della clinica."
+      },
+      "es": {
+        "bio_short": "Directora clínica de DentalIA Palma, la Dra. Vidal Soler combina una formación clínica en ortodoncia con un interés especial por la odontología estética. Trilingüe, coordina el programa de pacientes internacionales de la clínica."
+      }
+    }
+  },
+  {
+    "id_suggested": "javier-roig",
+    "name": "Dr. Javier Roig",
+    "clinic_id_suggested": "palma",
+    "role": "Implantólogo / Cirugía oral",
+    "years_experience": 18,
+    "specialties": ["Implantología", "Cirugía oral", "Regeneración ósea"],
+    "i18n": {
+      "en": {
+        "bio_short": "Dr. Roig is the head of implantology and oral surgery at DentalIA Palma. He has completed advanced training in guided implant surgery and bone regeneration and works closely with the prosthetic team."
+      },
+      "it": {
+        "bio_short": "Il Dr. Roig è il responsabile dell'implantologia e della chirurgia orale di DentalIA Palma. Ha completato una formazione avanzata in chirurgia guidata e rigenerazione ossea e lavora a stretto contatto con il team protesico."
+      },
+      "es": {
+        "bio_short": "El Dr. Roig es el responsable de implantología y cirugía oral de DentalIA Palma. Ha completado formación avanzada en cirugía guiada y regeneración ósea y trabaja en estrecha colaboración con el equipo protésico."
+      }
+    }
+  },
+  {
+    "id_suggested": "marta-cifre",
+    "name": "Dra. Marta Cifre",
+    "clinic_id_suggested": "palma",
+    "role": "Odontopediatra",
+    "years_experience": 9,
+    "specialties": ["Odontopediatría", "Ortodoncia interceptiva", "Manejo del paciente ansioso"],
+    "i18n": {
+      "en": {
+        "bio_short": "Dr. Cifre leads the pediatric program at DentalIA Palma. She is specialized in pediatric dentistry and interceptive orthodontics, with a gentle approach designed to build a positive relationship with children from their first visit."
+      },
+      "it": {
+        "bio_short": "La Dr.ssa Cifre guida il programma pediatrico di DentalIA Palma. Specializzata in odontoiatria pediatrica e ortodonzia intercettiva, ha un approccio delicato pensato per costruire un rapporto positivo con i bambini fin dalla prima visita."
+      },
+      "es": {
+        "bio_short": "La Dra. Cifre lidera el programa pediátrico de DentalIA Palma. Especializada en odontopediatría y ortodoncia interceptiva, su enfoque delicado está pensado para construir una relación positiva con los niños desde la primera visita."
+      }
+    }
+  },
+  {
+    "id_suggested": "claudia-martinez",
+    "name": "Claudia Martínez",
+    "clinic_id_suggested": "palma",
+    "role": "Higienista dental",
+    "years_experience": 7,
+    "specialties": ["Higiene profesional", "Blanqueamiento", "Mantenimiento de implantes"],
+    "i18n": {
+      "en": {
+        "bio_short": "Claudia is one of the lead hygienists at DentalIA Palma, with particular expertise in implant maintenance and professional whitening protocols. She works fluently in Spanish, Catalan and English."
+      },
+      "it": {
+        "bio_short": "Claudia è una delle igieniste di riferimento di DentalIA Palma, con particolare esperienza nel mantenimento degli impianti e nei protocolli di sbiancamento professionale. Parla fluentemente spagnolo, catalano e inglese."
+      },
+      "es": {
+        "bio_short": "Claudia es una de las higienistas de referencia de DentalIA Palma, con especial experiencia en mantenimiento de implantes y protocolos de blanqueamiento profesional. Habla con fluidez español, catalán e inglés."
+      }
+    }
+  },
+  {
+    "id_suggested": "james-whitfield",
+    "name": "Dr. James Whitfield",
+    "clinic_id_suggested": "london",
+    "role": "Clinical Director / Prosthodontist",
+    "years_experience": 19,
+    "specialties": ["Prosthodontics", "Aesthetic dentistry", "Full-arch rehabilitations"],
+    "i18n": {
+      "en": {
+        "bio_short": "Clinical Director of DentalIA London, Dr. Whitfield is a recognized prosthodontist with extensive experience in aesthetic dentistry and full-arch rehabilitations. He trained in London and Geneva and lectures internationally on smile design."
+      },
+      "it": {
+        "bio_short": "Direttore sanitario di DentalIA London, il Dr. Whitfield è un protesista riconosciuto con ampia esperienza in estetica dentale e riabilitazioni full-arch. Si è formato a Londra e Ginevra e tiene conferenze internazionali sullo smile design."
+      },
+      "es": {
+        "bio_short": "Director clínico de DentalIA London, el Dr. Whitfield es un protesista reconocido con amplia experiencia en estética dental y rehabilitaciones full-arch. Se formó en Londres y Ginebra y participa como ponente internacional en diseño de sonrisa."
+      }
+    }
+  },
+  {
+    "id_suggested": "sophie-laurent",
+    "name": "Dr. Sophie Laurent",
+    "clinic_id_suggested": "london",
+    "role": "Periodontist",
+    "years_experience": 15,
+    "specialties": ["Periodontology", "Soft tissue grafting", "Implant maintenance"],
+    "i18n": {
+      "en": {
+        "bio_short": "Dr. Laurent is the specialist periodontist at DentalIA London. She handles complex cases of gum disease and soft-tissue surgery, including aesthetic corrections around natural teeth and implants."
+      },
+      "it": {
+        "bio_short": "La Dr.ssa Laurent è la parodontologa di DentalIA London. Segue i casi più complessi di malattia parodontale e la chirurgia dei tessuti molli, comprese le correzioni estetiche su denti naturali e impianti."
+      },
+      "es": {
+        "bio_short": "La Dra. Laurent es la periodoncista de DentalIA London. Atiende los casos más complejos de enfermedad periodontal y la cirugía de tejidos blandos, incluidas las correcciones estéticas sobre dientes naturales e implantes."
+      }
+    }
+  },
+  {
+    "id_suggested": "alessandro-greco",
+    "name": "Dr. Alessandro Greco",
+    "clinic_id_suggested": "london",
+    "role": "Orthodontist",
+    "years_experience": 13,
+    "specialties": ["Invisible orthodontics", "Lingual orthodontics", "Adult orthodontics"],
+    "i18n": {
+      "en": {
+        "bio_short": "Italian-born and London-based, Dr. Greco leads the orthodontic team at DentalIA London. He is certified in Invisalign and lingual orthodontics, with a strong focus on adult patients seeking discreet treatment options."
+      },
+      "it": {
+        "bio_short": "Italiano di origine e londinese di adozione, il Dr. Greco guida il team ortodontico di DentalIA London. È certificato in Invisalign e in ortodonzia linguale, con una particolare attenzione ai pazienti adulti che cercano opzioni discrete."
+      },
+      "es": {
+        "bio_short": "Italiano de origen y londinense de adopción, el Dr. Greco lidera el equipo de ortodoncia de DentalIA London. Está certificado en Invisalign y ortodoncia lingual, con especial atención a los pacientes adultos que buscan opciones discretas."
+      }
+    }
+  }
+]
