@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
+import { ToothLogo } from "@/components/ui/ToothLogo";
 import { PRIMARY_NAV } from "@/lib/nav";
-import { BRAND_NAME, getFtfaiUrl } from "@/lib/brand";
-import type { Locale } from "@/i18n/routing";
+import { BRAND_NAME } from "@/lib/brand";
 
 const LEGAL_LINKS = [
   { key: "legalImprint" as const, href: "/imprint" },
@@ -14,19 +14,21 @@ const LEGAL_LINKS = [
 export function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("nav");
-  const locale = useLocale() as Locale;
 
   return (
     <footer className="mt-24 border-t border-[color:var(--color-hairline)] bg-[color:var(--color-canvas)]">
       <Container width="wide">
         <div className="grid gap-12 py-16 md:grid-cols-3 md:gap-10 md:py-20">
           <div>
-            <p
-              className="text-3xl text-[color:var(--color-ink)]"
+            <div
+              className="flex items-center gap-2 text-3xl text-[color:var(--color-ink)]"
               style={{ fontFamily: "var(--font-jakarta)", fontWeight: 700 }}
             >
-              Dental<span className="text-[color:var(--color-primary)]">IA</span>
-            </p>
+              <ToothLogo className="h-9 w-9 text-[color:var(--color-primary)]" />
+              <span>
+                Dental<span className="text-[color:var(--color-primary)]">IA</span>
+              </span>
+            </div>
             <p className="mt-3 max-w-xs text-sm text-[color:var(--color-muted)]">
               {t("tagline")}
             </p>
@@ -73,14 +75,12 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {BRAND_NAME}. {t("credit")}
           </p>
-          <a
-            href={getFtfaiUrl(locale)}
+          <Link
+            href="/imprint"
             className="hover:text-[color:var(--color-primary)] transition-colors"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             {t("creditLinkLabel")} →
-          </a>
+          </Link>
         </div>
       </Container>
     </footer>

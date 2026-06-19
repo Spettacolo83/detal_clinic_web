@@ -9,7 +9,7 @@
   "services": {
     "eyebrow": "Our services",
     "title": "Twelve specialties, one philosophy of care.",
-    "subtitle": "From preventive check-ups to advanced implantology, every treatment is delivered with the same boutique standards across our three clinics.",
+    "subtitle": "From preventive check-ups to advanced implantology, every treatment is delivered with safe protocols, certified materials and an obsessive focus on patient comfort.",
     "categoryFilter": "All categories",
     "cat_preventiva": "Preventive",
     "cat_conservativa": "Conservative",
@@ -17,7 +17,7 @@
     "cat_ortodonzia": "Orthodontics",
     "cat_chirurgia": "Surgery",
     "cat_pediatrica": "Pediatric",
-    "flagshipLabel": "Flagship",
+    "flagshipLabel": "Most popular",
     "priceFromLabel": "From",
     "priceToLabel": "to",
     "durationLabel": "Session",
@@ -25,13 +25,13 @@
     "benefitsHeading": "Why choose this treatment",
     "whoForHeading": "Who is it for",
     "processHeading": "How it works",
-    "faqHeading": "Questions visitors often ask",
+    "faqHeading": "Frequently asked questions",
     "bookCta": "Book this visit",
-    "askHint": "Or open Sofia in the corner to ask any question about this treatment."
+    "askHint": "Call the reception of your nearest clinic to learn more or book an appointment."
   },
   "clinics": {
     "eyebrow": "Our clinics",
-    "title": "Three cities, one DentalIA experience.",
+    "title": "Find your nearest clinic.",
     "hoursHeading": "Opening hours",
     "addressHeading": "Address",
     "phoneHeading": "Phone",
@@ -40,6 +40,7 @@
     "teamHeading": "On-site team",
     "directorLabel": "Clinical director",
     "servicesHeading": "Services available",
+    "mapHeading": "Where we are",
     "mondayShort": "Mon",
     "tuesdayShort": "Tue",
     "wednesdayShort": "Wed",
@@ -52,12 +53,13 @@
     "parkingLabel": "Parking",
     "transportLabel": "Public transport",
     "directionsCta": "Open in Maps",
-    "bookCta": "Book at this clinic"
+    "bookCta": "Book at this clinic",
+    "discoverCta": "Discover the clinic"
   },
   "team": {
     "eyebrow": "Our specialists",
     "title": "Specialists who listen first.",
-    "subtitle": "Eleven clinicians across Roma, Palma and London — same protocols, same care philosophy.",
+    "subtitle": "Eleven professionals with international training and shared protocols across our three clinics.",
     "yearsLabel": "years of experience",
     "specialtiesLabel": "Specialties",
     "clinicLabel": "Based at"
@@ -65,11 +67,11 @@
   "contact": {
     "eyebrow": "Get in touch",
     "title": "Speak with our team.",
-    "body": "You can reach us by phone, email or directly through Sofia, our AI assistant.",
+    "body": "You can reach us by phone at each clinic or send us an email. We will reply within one working day.",
     "emailLabel": "General email",
     "phoneLabel": "Reception",
     "hoursLabel": "Reception hours",
-    "emailGeneral": "hello@dentalia.com"
+    "emailGeneral": "info@followtheflowai.com"
   },
   "comingSoon": {
     "badge": "Coming soon",
@@ -78,7 +80,7 @@
   "imprint": {
     "eyebrow": "Legal",
     "title": "Imprint",
-    "body": "DentalIA is a demonstration brand operated by Follow The Flow AI LLC, a Delaware limited liability company. The clinics, treatments and team profiles shown on this site are fictional and exist purely to illustrate AI automation capabilities."
+    "body": "DentalIA is a demonstration brand operated by Follow The Flow AI LLC, a Delaware limited liability company. The clinics, treatments and team profiles shown on this site are fictional and for illustrative purposes only."
   },
   "privacy": {
     "eyebrow": "Legal",
@@ -91,59 +93,59 @@
     "body": "All services, clinics and team members presented on this site are demonstrations and do not correspond to real medical providers. No real medical service is offered. Full terms will accompany any production rollout."
   },
   "home": {
-    "heroEyebrow": "Dental care · Powered by AI",
-    "heroTitle": "Smile naturally. AI concierge.",
-    "heroSubtitle": "Three boutique clinics, twelve specialties and Sofia, our AI assistant, ready to answer questions and book your visit at any time.",
+    "heroEyebrow": "Your dental health, in expert hands",
+    "heroTitle": "Smile naturally, every day.",
+    "heroSubtitle": "From routine check-ups to advanced implantology, boutique dental care designed to feel calm, comfortable and pain-free.",
     "heroPrimaryCta": "Browse services",
     "heroSecondaryCta": "Book a visit",
     "valuePropsEyebrow": "Why DentalIA",
-    "valuePropsTitle": "Boutique care, intelligent service.",
+    "valuePropsTitle": "Comfort, technology and prevention at the heart.",
     "servicesEyebrow": "Services",
-    "servicesTitle": "Twelve treatments, one philosophy.",
-    "servicesBody": "Browse our full catalogue or talk to Sofia for guided recommendations.",
+    "servicesTitle": "Our most requested treatments.",
+    "servicesBody": "Browse our full catalogue, from yearly check-ups to aesthetic and conservative treatments our patients ask for the most.",
     "servicesCta": "See all services",
-    "clinicsEyebrow": "Our clinics",
-    "clinicsTitle": "Three cities, one DentalIA experience.",
-    "clinicsBody": "From Prati in Rome to Santa Catalina in Palma and Marylebone in London, every clinic is a renovated heritage building reimagined as a calm, welcoming space.",
+    "clinicsEyebrow": "Our locations",
+    "clinicsTitle": "Find your nearest clinic.",
+    "clinicsBody": "Rome, Palma de Mallorca, London. Same protocols, same philosophy of care.",
     "teamEyebrow": "Our team",
     "teamTitle": "Specialists who listen first, then treat.",
-    "teamBody": "Implantologists, orthodontists, periodontists, hygienists and a dedicated pediatric team. Eleven professionals across three cities, sharing the same protocols and the same care philosophy.",
-    "conciergeEyebrow": "AI concierge",
-    "conciergeTitle": "Meet Sofia, your dental concierge.",
-    "conciergeBody": "Sofia is the voice assistant of DentalIA. She speaks Italian, Spanish and English, knows our twelve services and our three clinics in detail, and can check live availability and book your visit in a few seconds. Ask her anything, anytime, without filling forms.",
-    "conciergeCta": "Talk to Sofia",
+    "teamBody": "Implantologists, orthodontists, periodontists, hygienists and pediatric dentists. Eleven specialists with international training and shared protocols.",
+    "firstVisitEyebrow": "First visit",
+    "firstVisitTitle": "Your first check-up is on us.",
+    "firstVisitBody": "Come meet us with no commitment. A 30-minute preliminary visit to assess the health of your smile and, if needed, plan a personalised treatment path. Free of charge, no strings attached.",
+    "firstVisitCta": "Book your free visit",
     "valueProps": [
       {
-        "title": "AI assistant always available",
-        "body": "Sofia answers questions about treatments, prices and slots in real time, in your language, 24 hours a day."
+        "title": "Pain-free care",
+        "body": "Computer-controlled anaesthesia, tailored analgesic protocols and conscious sedation on request. Visits and procedures are designed to feel as comfortable as possible, even for anxious patients."
       },
       {
-        "title": "Three boutique clinics: Roma, Palma, London",
-        "body": "Premium spaces designed to feel calm and welcoming, with the same standards of care in every city."
+        "title": "Digital technology",
+        "body": "Low-dose 3D X-rays, intraoral scanners and a fully digital workflow. More precise diagnoses, faster treatments, and no traditional impressions."
       },
       {
-        "title": "Multilingual care team",
-        "body": "Our clinicians and front-desk teams speak Italian, Spanish and English, so you can be heard exactly the way you want."
+        "title": "Personalised prevention",
+        "body": "Professional hygiene, sealants, yearly check-ups and maintenance plans tailored to you. Protecting your smile over time costs far less than treating it."
       },
       {
-        "title": "Transparent pricing on request",
-        "body": "A clear written quote before any treatment, with no surprises and the option to discuss payment plans."
+        "title": "Clear pricing, 5-year guarantee",
+        "body": "A written, detailed quote before any treatment starts. Five-year guarantee on implants and prosthetics, with flexible payment plans available."
       }
     ]
   },
   "meta": {
-    "title": "DentalIA — Boutique Dental Care, Powered by AI",
-    "description": "DentalIA: three boutique dental clinics in Roma, Palma de Mallorca and London. 12 specialties, an AI concierge always available, transparent pricing."
+    "title": "DentalIA — Boutique Dental Clinics in Rome, Palma and London",
+    "description": "DentalIA: three boutique dental clinics in Rome, Palma de Mallorca and London. Twelve specialties, free first visit, five-year guarantee on implants and prosthetics."
   },
   "footer": {
-    "tagline": "DentalIA — Boutique dental care, powered by AI.",
+    "tagline": "DentalIA — Boutique dental clinics. Rome · Palma · London.",
     "navHeading": "Browse",
     "legalHeading": "Legal",
     "legalImprint": "Imprint",
     "legalPrivacy": "Privacy",
     "legalTerms": "Terms",
-    "credit": "A Follow The Flow AI showcase.",
-    "creditLinkLabel": "Discover the technology",
-    "legalNote": "DentalIA is a demonstration brand created by Follow The Flow AI to showcase AI automation for dental clinics. All clinics, treatments and team members shown on this site are fictitious and for illustrative purposes only."
+    "credit": "All rights reserved.",
+    "creditLinkLabel": "Legal notice",
+    "legalNote": "DentalIA is a demonstration brand. All clinics, treatments and team members shown on this site are fictitious and for illustrative purposes only."
   }
 }

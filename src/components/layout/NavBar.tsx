@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
+import { ToothLogo } from "@/components/ui/ToothLogo";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 import { PRIMARY_NAV } from "@/lib/nav";
 import { BRAND_NAME } from "@/lib/brand";
@@ -14,11 +15,14 @@ export function NavBar() {
         <div className="flex h-16 items-center justify-between md:h-20">
           <Link
             href="/"
-            className="text-2xl tracking-tight text-[color:var(--color-ink)] hover:text-[color:var(--color-primary)] transition-colors"
+            className="group flex items-center gap-2 text-2xl tracking-tight text-[color:var(--color-ink)] hover:text-[color:var(--color-primary)] transition-colors"
             style={{ fontFamily: "var(--font-jakarta)", fontWeight: 700 }}
             aria-label={BRAND_NAME}
           >
-            Dental<span className="text-[color:var(--color-primary)]">IA</span>
+            <ToothLogo className="h-7 w-7 text-[color:var(--color-primary)] md:h-8 md:w-8" />
+            <span>
+              Dental<span className="text-[color:var(--color-primary)]">IA</span>
+            </span>
           </Link>
 
           <nav className="hidden items-center gap-8 md:flex" aria-label="primary">

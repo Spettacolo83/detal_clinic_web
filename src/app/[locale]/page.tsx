@@ -1,10 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 import { useTranslations, useLocale } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Button } from "@/components/ui/Button";
+import { ToothLogo } from "@/components/ui/ToothLogo";
 import { getFlagshipServices, getLocalizedService, getAllClinics, getLocalizedClinic, formatPriceRange } from "@/data/dentalia";
+import { SITE_IMAGES, CLINIC_IMAGES } from "@/lib/images";
 import type { ServiceCategory } from "@/types/dentalia";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -19,7 +22,7 @@ export default async function HomePage({ params }: Props) {
       <ServicesShowcase />
       <ClinicsOverview />
       <TeamTeaser />
-      <ConciergeBanner />
+      <FirstVisitBanner />
     </>
   );
 }
@@ -27,15 +30,18 @@ export default async function HomePage({ params }: Props) {
 function Hero() {
   const t = useTranslations("home");
   return (
-    <section className="relative overflow-hidden border-b border-[color:var(--color-hairline)] bg-[color:var(--color-canvas)]">
-      <div
-        className="pointer-events-none absolute inset-0 -z-10 opacity-30"
-        style={{
-          backgroundImage:
-            "radial-gradient(60% 50% at 50% 0%, color-mix(in srgb, var(--color-primary) 35%, transparent) 0%, transparent 70%)",
-        }}
-        aria-hidden="true"
-      />
+    <section className="relative overflow-hidden border-b border-[color:var(--color-hairline)]">
+      <div className="absolute inset-0 -z-10">
+        <Image
+          src={SITE_IMAGES.heroHome}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-canvas)] via-[color:var(--color-canvas)]/85 to-[color:var(--color-canvas)]/55 md:from-[color:var(--color-canvas)]/95 md:via-[color:var(--color-canvas)]/70 md:to-[color:var(--color-canvas)]/20" />
+      </div>
       <Container width="wide">
         <div className="grid min-h-[78vh] items-center pb-16 pt-24 md:pb-24 md:pt-32">
           <div className="max-w-3xl">
@@ -60,6 +66,7 @@ function Hero() {
 function ValueProps() {
   const t = useTranslations("home");
   const props = t.raw("valueProps") as Array<{ title: string; body: string }>;
+  const icons = ["💙", "🦷", "🌿", "✓"];
   return (
     <section className="py-20 md:py-28">
       <Container width="wide">
@@ -70,11 +77,11 @@ function ValueProps() {
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {props.map((p, i) => (
             <div key={i} className="rounded-[12px] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] p-6">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[color:var(--color-primary)]/10 text-[color:var(--color-primary)]">
-                {i + 1}
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[color:var(--color-primary)]/10 text-[color:var(--color-primary)] text-lg">
+                <span aria-hidden="true">{icons[i] ?? "✓"}</span>
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-[color:var(--color-ink)]">{p.title}</h3>
-              <p className="mt-3 text-sm text-[color:var(--color-muted)]">{p.body}</p>
+              <h3 className="mt-5 text-lg font-semibold text-[color:var(--color-ink)]">{p.title}</h3>
+              <p className="mt-3 text-sm leading-relaxed text-[color:var(--color-muted)]">{p.body}</p>
             </div>
           ))}
         </div>
@@ -89,13 +96,24 @@ function ServicesShowcase() {
   const locale = useLocale();
   const flagship = getFlagshipServices();
   return (
-    <section className="border-y border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] py-20 md:py-28">
+    <section className="relative border-y border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] py-20 md:py-28">
       <Container width="wide">
         <div className="grid gap-8 md:grid-cols-12 md:gap-16">
           <div className="md:col-span-5">
             <Eyebrow tone="primary">{t("servicesEyebrow")}</Eyebrow>
             <h2 className="mt-4 text-4xl text-[color:var(--color-ink)] md:text-5xl">{t("servicesTitle")}</h2>
             <p className="mt-6 max-w-md text-base text-[color:var(--color-muted)] md:text-lg">{t("servicesBody")}</p>
+            <div className="mt-8 overflow-hidden rounded-[12px] border border-[color:var(--color-hairline)]">
+              <div className="relative aspect-[4/3] w-full">
+                <Image
+                  src={SITE_IMAGES.decorDentalTools}
+                  alt=""
+                  fill
+                  sizes="(min-width: 768px) 40vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+            </div>
             <div className="mt-8">
               <Button href="/services" size="lg" variant="secondary">{t("servicesCta")} →</Button>
             </div>
@@ -128,6 +146,7 @@ function ServicesShowcase() {
 
 function ClinicsOverview() {
   const t = useTranslations("home");
+  const tClin = useTranslations("clinics");
   const locale = useLocale();
   const clinics = getAllClinics();
   return (
@@ -138,14 +157,36 @@ function ClinicsOverview() {
           <h2 className="mt-4 text-4xl text-[color:var(--color-ink)] md:text-5xl">{t("clinicsTitle")}</h2>
           <p className="mt-5 text-base text-[color:var(--color-muted)] md:text-lg">{t("clinicsBody")}</p>
         </div>
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-14 space-y-6">
           {clinics.map((c) => {
             const loc = getLocalizedClinic(c, locale);
             return (
-              <Link key={c.id_suggested} href={`/clinics/${c.id_suggested}`} className="group block rounded-[12px] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] p-8 transition-all hover:border-[color:var(--color-primary)] hover:shadow-lg">
-                <Eyebrow tone="accent">{c.city}</Eyebrow>
-                <h3 className="mt-4 text-2xl leading-snug text-[color:var(--color-ink)] group-hover:text-[color:var(--color-primary)] transition-colors">{loc.name}</h3>
-                <p className="mt-3 text-sm text-[color:var(--color-muted)]">{loc.neighborhood_description}</p>
+              <Link
+                key={c.id_suggested}
+                href={`/clinics/${c.id_suggested}`}
+                className="group block overflow-hidden rounded-[12px] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] transition-all hover:border-[color:var(--color-primary)] hover:shadow-lg"
+              >
+                <div className="grid md:grid-cols-12">
+                  <div className="relative md:col-span-5">
+                    <div className="relative aspect-[16/10] w-full md:aspect-auto md:h-full md:min-h-[260px]">
+                      <Image
+                        src={CLINIC_IMAGES[c.id_suggested] ?? SITE_IMAGES.heroHome}
+                        alt=""
+                        fill
+                        sizes="(min-width: 768px) 40vw, 100vw"
+                        className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex flex-col justify-center gap-4 p-6 md:col-span-7 md:p-10">
+                    <Eyebrow tone="accent">{c.city}</Eyebrow>
+                    <h3 className="text-2xl leading-snug text-[color:var(--color-ink)] group-hover:text-[color:var(--color-primary)] transition-colors md:text-3xl">{loc.name}</h3>
+                    <p className="text-sm leading-relaxed text-[color:var(--color-muted)] md:text-base">{loc.neighborhood_description}</p>
+                    <p className="mt-2 text-sm font-medium text-[color:var(--color-primary)]">
+                      {tClin("discoverCta")} →
+                    </p>
+                  </div>
+                </div>
               </Link>
             );
           })}
@@ -171,26 +212,36 @@ function TeamTeaser() {
   );
 }
 
-function ConciergeBanner() {
+function FirstVisitBanner() {
   const t = useTranslations("home");
   return (
-    <section id="concierge" className="bg-[color:var(--color-primary)] py-20 text-white md:py-28">
+    <section className="relative overflow-hidden bg-[color:var(--color-primary)] py-20 text-white md:py-28">
+      <div className="absolute inset-0 -z-10 opacity-25">
+        <Image
+          src={SITE_IMAGES.firstVisit}
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
       <Container width="default">
         <div className="grid items-center gap-12 md:grid-cols-12 md:gap-16">
-          <div className="md:col-span-7">
-            <Eyebrow tone="muted" className="!text-white/80">{t("conciergeEyebrow")}</Eyebrow>
-            <h2 className="mt-4 text-4xl leading-tight md:text-5xl">{t("conciergeTitle")}</h2>
-            <p className="mt-5 max-w-xl text-base text-white/80 md:text-lg">{t("conciergeBody")}</p>
+          <div className="md:col-span-8">
+            <Eyebrow tone="muted" className="!text-white/80">{t("firstVisitEyebrow")}</Eyebrow>
+            <h2 className="mt-4 text-4xl leading-tight md:text-5xl">{t("firstVisitTitle")}</h2>
+            <p className="mt-5 max-w-xl text-base text-white/85 md:text-lg">{t("firstVisitBody")}</p>
             <div className="mt-10">
-              <Button href="#" variant="accent" size="lg">{t("conciergeCta")}</Button>
+              <Button href="/contact#book" variant="accent" size="lg">{t("firstVisitCta")}</Button>
             </div>
           </div>
-          <div className="md:col-span-5">
-            <div className="relative mx-auto flex h-56 w-56 items-center justify-center rounded-full border border-white/30 md:h-72 md:w-72" aria-hidden="true">
-              <div className="absolute inset-0 animate-ping rounded-full border border-white/30" />
-              <div className="absolute inset-4 rounded-full border border-white/30" />
-              <div className="absolute inset-8 rounded-full border border-white/40" />
-              <div className="h-3 w-3 rounded-full bg-white" />
+          <div className="md:col-span-4">
+            <div className="mx-auto flex h-44 w-44 items-center justify-center rounded-full border border-white/30 bg-white/10 backdrop-blur md:h-60 md:w-60">
+              <ToothLogo
+                className="h-24 w-24 text-white md:h-32 md:w-32"
+                primaryColor="white"
+                accentColor="rgba(255,255,255,0.6)"
+              />
             </div>
           </div>
         </div>

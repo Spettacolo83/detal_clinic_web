@@ -19,8 +19,17 @@ export function getServicesByCategory(cat: ServiceCategory): ReadonlyArray<Servi
   return services.filter((s) => s.category === cat);
 }
 
+const HOME_FEATURED_IDS = [
+  "visita-di-controllo",
+  "igiene-dentale-professionale",
+  "otturazioni-estetiche",
+  "sbiancamento-professionale",
+] as const;
+
 export function getFlagshipServices(): ReadonlyArray<Service> {
-  return services.filter((s) => s.priority === 1);
+  return HOME_FEATURED_IDS
+    .map((id) => services.find((s) => s.id_suggested === id))
+    .filter((s): s is Service => Boolean(s));
 }
 
 export function getAllClinics(): ReadonlyArray<Clinic> {

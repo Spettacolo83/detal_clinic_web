@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { useTranslations, useLocale } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { getAllClinics, getLocalizedClinic } from "@/data/dentalia";
+import { getClinicImage } from "@/lib/images";
 import { routing } from "@/i18n/routing";
 
 export function generateStaticParams() {
@@ -50,15 +52,26 @@ function Content() {
                 <Link
                   key={c.id_suggested}
                   href={`/clinics/${c.id_suggested}`}
-                  className="group block rounded-[12px] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] p-8 transition-all hover:border-[color:var(--color-primary)] hover:shadow-lg"
+                  className="group block overflow-hidden rounded-[12px] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] transition-all hover:border-[color:var(--color-primary)] hover:shadow-lg"
                 >
-                  <Eyebrow tone="accent">{c.city}</Eyebrow>
-                  <h3 className="mt-4 text-2xl leading-snug text-[color:var(--color-ink)] group-hover:text-[color:var(--color-primary)] transition-colors">
-                    {loc.name}
-                  </h3>
-                  <p className="mt-4 text-sm text-[color:var(--color-muted)]">{loc.neighborhood_description}</p>
-                  <div className="mt-6 border-t border-[color:var(--color-hairline)] pt-4 text-xs uppercase tracking-[0.16em] text-[color:var(--color-muted)]">
-                    {c.address_full}
+                  <div className="relative aspect-[16/10] w-full">
+                    <Image
+                      src={getClinicImage(c.id_suggested)}
+                      alt={loc.name}
+                      fill
+                      sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+                    />
+                  </div>
+                  <div className="p-8">
+                    <Eyebrow tone="accent">{c.city}</Eyebrow>
+                    <h3 className="mt-4 text-2xl leading-snug text-[color:var(--color-ink)] group-hover:text-[color:var(--color-primary)] transition-colors">
+                      {loc.name}
+                    </h3>
+                    <p className="mt-4 text-sm text-[color:var(--color-muted)]">{loc.neighborhood_description}</p>
+                    <div className="mt-6 border-t border-[color:var(--color-hairline)] pt-4 text-xs uppercase tracking-[0.16em] text-[color:var(--color-muted)]">
+                      {c.address_full}
+                    </div>
                   </div>
                 </Link>
               );
