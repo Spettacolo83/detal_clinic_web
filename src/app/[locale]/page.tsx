@@ -30,26 +30,24 @@ export default async function HomePage({ params }: Props) {
 function Hero() {
   const t = useTranslations("home");
   return (
-    <section className="relative overflow-hidden border-b border-[color:var(--color-hairline)]">
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src={SITE_IMAGES.heroHome}
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-canvas)] via-[color:var(--color-canvas)]/85 to-[color:var(--color-canvas)]/55 md:from-[color:var(--color-canvas)]/95 md:via-[color:var(--color-canvas)]/70 md:to-[color:var(--color-canvas)]/20" />
-      </div>
+    <section className="relative isolate overflow-hidden border-b border-[color:var(--color-hairline)]">
+      <Image
+        src={SITE_IMAGES.parallax}
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="absolute inset-0 -z-20 object-cover"
+      />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/70 via-black/55 to-black/25 md:from-black/65 md:via-black/45 md:to-black/15" />
       <Container width="wide">
         <div className="grid min-h-[78vh] items-center pb-16 pt-24 md:pb-24 md:pt-32">
           <div className="max-w-3xl">
-            <Eyebrow tone="primary">{t("heroEyebrow")}</Eyebrow>
-            <h1 className="mt-6 text-5xl leading-[1.05] text-[color:var(--color-ink)] md:text-7xl">
+            <Eyebrow tone="muted" className="!text-white/80">{t("heroEyebrow")}</Eyebrow>
+            <h1 className="mt-6 text-5xl leading-[1.05] text-white md:text-7xl" style={{ textShadow: "0 2px 18px rgba(0,0,0,0.35)" }}>
               {t("heroTitle")}
             </h1>
-            <p className="mt-6 max-w-xl text-base text-[color:var(--color-muted)] md:text-lg">
+            <p className="mt-6 max-w-xl text-base text-white/90 md:text-lg" style={{ textShadow: "0 1px 10px rgba(0,0,0,0.35)" }}>
               {t("heroSubtitle")}
             </p>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -103,17 +101,6 @@ function ServicesShowcase() {
             <Eyebrow tone="primary">{t("servicesEyebrow")}</Eyebrow>
             <h2 className="mt-4 text-4xl text-[color:var(--color-ink)] md:text-5xl">{t("servicesTitle")}</h2>
             <p className="mt-6 max-w-md text-base text-[color:var(--color-muted)] md:text-lg">{t("servicesBody")}</p>
-            <div className="mt-8 overflow-hidden rounded-[12px] border border-[color:var(--color-hairline)]">
-              <div className="relative aspect-[4/3] w-full">
-                <Image
-                  src={SITE_IMAGES.decorDentalTools}
-                  alt=""
-                  fill
-                  sizes="(min-width: 768px) 40vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
-            </div>
             <div className="mt-8">
               <Button href="/services" size="lg" variant="secondary">{t("servicesCta")} →</Button>
             </div>

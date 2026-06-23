@@ -50,13 +50,13 @@ function Content() {
               const clinicName = clinic ? getLocalizedClinic(clinic, locale).name : m.clinic_id_suggested;
               return (
                 <div key={m.id_suggested} className="overflow-hidden rounded-[12px] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)]">
-                  <div className="relative aspect-[4/3] w-full">
+                  <div className="relative aspect-square w-full bg-[color:var(--color-canvas)]">
                     <Image
                       src={getTeamPhoto(m.id_suggested)}
                       alt={m.name}
                       fill
                       sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
-                      className="object-cover"
+                      className="object-cover object-top"
                     />
                   </div>
                   <div className="p-6">

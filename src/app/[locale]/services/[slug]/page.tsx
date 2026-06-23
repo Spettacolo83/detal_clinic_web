@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { setRequestLocale, getTranslations } from "next-intl/server";
@@ -8,7 +7,6 @@ import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Button } from "@/components/ui/Button";
 import { getAllServices, getServiceBySlug, getLocalizedService, formatPriceRange } from "@/data/dentalia";
-import { getServiceImage } from "@/lib/images";
 import { routing } from "@/i18n/routing";
 import type { ServiceCategory } from "@/types/dentalia";
 
@@ -65,16 +63,6 @@ function Content({ slug }: { slug: string }) {
               <Eyebrow tone="primary">{t(`cat_${s.category}` as `cat_${ServiceCategory}`)}</Eyebrow>
               <h1 className="mt-4 text-4xl leading-tight text-[color:var(--color-ink)] md:text-6xl">{loc.name}</h1>
               <p className="mt-5 text-lg text-[color:var(--color-muted)]">{loc.tagline}</p>
-              <div className="relative mt-8 aspect-[16/10] w-full overflow-hidden rounded-[12px]">
-                <Image
-                  src={getServiceImage(s.category)}
-                  alt={loc.name}
-                  fill
-                  priority
-                  sizes="(min-width: 768px) 55vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
             </div>
             <aside className="md:col-span-5">
               <div className="rounded-[12px] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] p-8">
